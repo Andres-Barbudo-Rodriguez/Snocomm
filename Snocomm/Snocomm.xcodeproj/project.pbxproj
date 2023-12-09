@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010E3A692B250A0A00D6C883 /* reboot.cs */ = {isa = PBXFileReference; lastKnownFileType = text; path = reboot.cs; sourceTree = "<group>"; };
 		C8B33C6F2B163F8200510912 /* Snocomm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snocomm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B33C722B163F8200510912 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C8B33C792B16401300510912 /* Server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				C8B33C7B2B16415900510912 /* sslAppUtils.h */,
 				C8B33C722B163F8200510912 /* main.c */,
 				C8B33C792B16401300510912 /* Server.cpp */,
+				010E3A692B250A0A00D6C883 /* reboot.cs */,
 			);
 			path = Snocomm;
 			sourceTree = "<group>";
