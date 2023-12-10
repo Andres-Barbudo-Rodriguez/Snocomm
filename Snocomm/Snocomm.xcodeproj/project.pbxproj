@@ -13,6 +13,7 @@
 		018564572B2660AC0031B656 /* SSL Certificate Information.c in Sources */ = {isa = PBXBuildFile; fileRef = 018564562B2660AC0031B656 /* SSL Certificate Information.c */; };
 		018564592B2661250031B656 /* Heartbleed and POODLE vulnerabilities check.c in Sources */ = {isa = PBXBuildFile; fileRef = 018564582B2661250031B656 /* Heartbleed and POODLE vulnerabilities check.c */; };
 		0185645B2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c in Sources */ = {isa = PBXBuildFile; fileRef = 0185645A2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c */; };
+		0185645D2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c in Sources */ = {isa = PBXBuildFile; fileRef = 0185645C2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c */; };
 		C8B33C732B163F8200510912 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C8B33C722B163F8200510912 /* main.c */; };
 		C8B33C7A2B16401300510912 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B33C792B16401300510912 /* Server.cpp */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		018564562B2660AC0031B656 /* SSL Certificate Information.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SSL Certificate Information.c"; sourceTree = "<group>"; };
 		018564582B2661250031B656 /* Heartbleed and POODLE vulnerabilities check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Heartbleed and POODLE vulnerabilities check.c"; sourceTree = "<group>"; };
 		0185645A2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SSL-TLS Cipher Suite Enumeration.c"; sourceTree = "<group>"; };
+		0185645C2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SSL-TLS Vunerabilities and Weak Ciphers Scan.c"; sourceTree = "<group>"; };
 		C8B33C6F2B163F8200510912 /* Snocomm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snocomm; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B33C722B163F8200510912 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C8B33C792B16401300510912 /* Server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				018564562B2660AC0031B656 /* SSL Certificate Information.c */,
 				018564582B2661250031B656 /* Heartbleed and POODLE vulnerabilities check.c */,
 				0185645A2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c */,
+				0185645C2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c */,
 			);
 			path = Snocomm;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				0185645B2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c in Sources */,
 				018564552B26600B0031B656 /* SSL-TLS Version Detection.c in Sources */,
 				018564572B2660AC0031B656 /* SSL Certificate Information.c in Sources */,
+				0185645D2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
