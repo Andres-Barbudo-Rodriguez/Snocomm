@@ -10,6 +10,6 @@
 #include <stdio.h>
 
 int main() {
-    system("nmap --script ssl-enum-ciphers -p 443 /.https/");
+    system("nmap --script ssl-enum-ciphers -p 443 /.https/ && /.http");
     return 0;
 }
