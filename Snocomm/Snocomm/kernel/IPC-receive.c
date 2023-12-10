@@ -19,7 +19,7 @@ int main() {
 	mach_msg_header_t ms;
 	mach_msg_return_t msg_result;
 
-	msg.msg_size = sizeof(msg);
+	msg.msgh_size = sizeof(msg);
 	msg_result = mach_msg(&msg, MACH_RCV_MSG, 0, sizeof(msg), port, MACH_MSG_TIMEOUT_NONE, MACH_PORT_NULL);
 	
 	if (msg_result != MACH_MSG_SUCCESS) {
