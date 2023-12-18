@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0163F4D62B30E0CD002590D8 /* Keychain Services.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4D52B30E0CD002590D8 /* Keychain Services.c */; };
+		0163F4D82B30E111002590D8 /* Certificate Operations.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4D72B30E111002590D8 /* Certificate Operations.c */; };
+		0163F4DC2B30E160002590D8 /* Cryptographic Operations.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4DB2B30E160002590D8 /* Cryptographic Operations.c */; };
+		0163F4DE2B30E189002590D8 /* Random Number Generation.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4DD2B30E189002590D8 /* Random Number Generation.c */; };
+		0163F4E02B30E1F6002590D8 /* Retreive Passwords from Keychain.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4DF2B30E1F6002590D8 /* Retreive Passwords from Keychain.c */; };
+		0163F4E22B30E228002590D8 /* Generate RSA Key Pair.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4E12B30E228002590D8 /* Generate RSA Key Pair.c */; };
+		0163F4E42B30E25A002590D8 /* Sign and Verify with RSA.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4E32B30E25A002590D8 /* Sign and Verify with RSA.c */; };
+		0163F4E62B30E2C5002590D8 /* Encrypt and Decrypt with RSA Key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4E52B30E2C5002590D8 /* Encrypt and Decrypt with RSA Key.c */; };
+		0163F4E82B30E301002590D8 /* Import and Export X-509 Certificate.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4E72B30E301002590D8 /* Import and Export X-509 Certificate.c */; };
+		0163F4EA2B30E348002590D8 /* Retrieve Identity.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4E92B30E348002590D8 /* Retrieve Identity.c */; };
+		0163F4EC2B30E38F002590D8 /* Generate and Verify HMAC.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4EB2B30E38F002590D8 /* Generate and Verify HMAC.c */; };
+		0163F4EE2B30E3E5002590D8 /* Check if Password Meets Policy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4ED2B30E3E5002590D8 /* Check if Password Meets Policy.c */; };
+		0163F4F02B30E4EC002590D8 /* SHA 256 Hashing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4EF2B30E4EC002590D8 /* SHA 256 Hashing.c */; };
+		0163F4F22B30E56B002590D8 /* AES Encryption and Decryption.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4F12B30E56B002590D8 /* AES Encryption and Decryption.c */; };
+		0163F4F42B30E5B2002590D8 /* Random Number Generation CommonCrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4F32B30E5B2002590D8 /* Random Number Generation CommonCrypto.c */; };
+		0163F4F62B30E5EF002590D8 /* PBKDF2 Key Derivation.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4F52B30E5EE002590D8 /* PBKDF2 Key Derivation.c */; };
+		0163F4F82B30E61A002590D8 /* Secure Password Comparison.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4F72B30E61A002590D8 /* Secure Password Comparison.c */; };
+		0163F4FA2B30E644002590D8 /* Check Password Strength.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4F92B30E644002590D8 /* Check Password Strength.c */; };
+		0163F4FC2B30E671002590D8 /* Elliptic Curve Digital Signature Algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4FB2B30E671002590D8 /* Elliptic Curve Digital Signature Algorithm.c */; };
+		0163F4FF2B30E6AB002590D8 /* Diffie-Hellman Key Exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F4FE2B30E6AB002590D8 /* Diffie-Hellman Key Exchange.c */; };
+		0163F5012B30E6FF002590D8 /* Password-Based Key Derivation with Salt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163F5002B30E6FF002590D8 /* Password-Based Key Derivation with Salt.c */; };
 		018564512B265E950031B656 /* SSL-TLS Enumeration.c in Sources */ = {isa = PBXBuildFile; fileRef = 018564502B265E950031B656 /* SSL-TLS Enumeration.c */; };
 		018564532B265F830031B656 /* Heartbleed Vulnerability Check.c in Sources */ = {isa = PBXBuildFile; fileRef = 018564522B265F830031B656 /* Heartbleed Vulnerability Check.c */; };
 		018564552B26600B0031B656 /* SSL-TLS Version Detection.c in Sources */ = {isa = PBXBuildFile; fileRef = 018564542B26600B0031B656 /* SSL-TLS Version Detection.c */; };
@@ -32,6 +53,27 @@
 
 /* Begin PBXFileReference section */
 		010E3A692B250A0A00D6C883 /* reboot.cs */ = {isa = PBXFileReference; lastKnownFileType = text; path = reboot.cs; sourceTree = "<group>"; };
+		0163F4D52B30E0CD002590D8 /* Keychain Services.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Keychain Services.c"; sourceTree = "<group>"; };
+		0163F4D72B30E111002590D8 /* Certificate Operations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Certificate Operations.c"; sourceTree = "<group>"; };
+		0163F4DB2B30E160002590D8 /* Cryptographic Operations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Cryptographic Operations.c"; sourceTree = "<group>"; };
+		0163F4DD2B30E189002590D8 /* Random Number Generation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Random Number Generation.c"; sourceTree = "<group>"; };
+		0163F4DF2B30E1F6002590D8 /* Retreive Passwords from Keychain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Retreive Passwords from Keychain.c"; sourceTree = "<group>"; };
+		0163F4E12B30E228002590D8 /* Generate RSA Key Pair.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Generate RSA Key Pair.c"; sourceTree = "<group>"; };
+		0163F4E32B30E25A002590D8 /* Sign and Verify with RSA.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Sign and Verify with RSA.c"; sourceTree = "<group>"; };
+		0163F4E52B30E2C5002590D8 /* Encrypt and Decrypt with RSA Key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Encrypt and Decrypt with RSA Key.c"; sourceTree = "<group>"; };
+		0163F4E72B30E301002590D8 /* Import and Export X-509 Certificate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Import and Export X-509 Certificate.c"; sourceTree = "<group>"; };
+		0163F4E92B30E348002590D8 /* Retrieve Identity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Retrieve Identity.c"; sourceTree = "<group>"; };
+		0163F4EB2B30E38F002590D8 /* Generate and Verify HMAC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Generate and Verify HMAC.c"; sourceTree = "<group>"; };
+		0163F4ED2B30E3E5002590D8 /* Check if Password Meets Policy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Check if Password Meets Policy.c"; sourceTree = "<group>"; };
+		0163F4EF2B30E4EC002590D8 /* SHA 256 Hashing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SHA 256 Hashing.c"; sourceTree = "<group>"; };
+		0163F4F12B30E56B002590D8 /* AES Encryption and Decryption.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AES Encryption and Decryption.c"; sourceTree = "<group>"; };
+		0163F4F32B30E5B2002590D8 /* Random Number Generation CommonCrypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Random Number Generation CommonCrypto.c"; sourceTree = "<group>"; };
+		0163F4F52B30E5EE002590D8 /* PBKDF2 Key Derivation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "PBKDF2 Key Derivation.c"; sourceTree = "<group>"; };
+		0163F4F72B30E61A002590D8 /* Secure Password Comparison.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Secure Password Comparison.c"; sourceTree = "<group>"; };
+		0163F4F92B30E644002590D8 /* Check Password Strength.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Check Password Strength.c"; sourceTree = "<group>"; };
+		0163F4FB2B30E671002590D8 /* Elliptic Curve Digital Signature Algorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Elliptic Curve Digital Signature Algorithm.c"; sourceTree = "<group>"; };
+		0163F4FE2B30E6AB002590D8 /* Diffie-Hellman Key Exchange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Diffie-Hellman Key Exchange.c"; sourceTree = "<group>"; };
+		0163F5002B30E6FF002590D8 /* Password-Based Key Derivation with Salt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Password-Based Key Derivation with Salt.c"; sourceTree = "<group>"; };
 		018564502B265E950031B656 /* SSL-TLS Enumeration.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SSL-TLS Enumeration.c"; sourceTree = "<group>"; };
 		018564522B265F830031B656 /* Heartbleed Vulnerability Check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Heartbleed Vulnerability Check.c"; sourceTree = "<group>"; };
 		018564542B26600B0031B656 /* SSL-TLS Version Detection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SSL-TLS Version Detection.c"; sourceTree = "<group>"; };
@@ -58,6 +100,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0163F4D42B30E0A3002590D8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				0163F4D52B30E0CD002590D8 /* Keychain Services.c */,
+				0163F4D72B30E111002590D8 /* Certificate Operations.c */,
+				0163F4DB2B30E160002590D8 /* Cryptographic Operations.c */,
+				0163F4DD2B30E189002590D8 /* Random Number Generation.c */,
+				0163F4DF2B30E1F6002590D8 /* Retreive Passwords from Keychain.c */,
+				0163F4E12B30E228002590D8 /* Generate RSA Key Pair.c */,
+				0163F4E32B30E25A002590D8 /* Sign and Verify with RSA.c */,
+				0163F4E52B30E2C5002590D8 /* Encrypt and Decrypt with RSA Key.c */,
+				0163F4E72B30E301002590D8 /* Import and Export X-509 Certificate.c */,
+				0163F4E92B30E348002590D8 /* Retrieve Identity.c */,
+				0163F4EB2B30E38F002590D8 /* Generate and Verify HMAC.c */,
+				0163F4ED2B30E3E5002590D8 /* Check if Password Meets Policy.c */,
+				0163F4EF2B30E4EC002590D8 /* SHA 256 Hashing.c */,
+				0163F4F12B30E56B002590D8 /* AES Encryption and Decryption.c */,
+				0163F4F32B30E5B2002590D8 /* Random Number Generation CommonCrypto.c */,
+				0163F4F52B30E5EE002590D8 /* PBKDF2 Key Derivation.c */,
+				0163F4F72B30E61A002590D8 /* Secure Password Comparison.c */,
+				0163F4F92B30E644002590D8 /* Check Password Strength.c */,
+				0163F4FB2B30E671002590D8 /* Elliptic Curve Digital Signature Algorithm.c */,
+				0163F4FE2B30E6AB002590D8 /* Diffie-Hellman Key Exchange.c */,
+				0163F5002B30E6FF002590D8 /* Password-Based Key Derivation with Salt.c */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
 		C8B33C662B163F8200510912 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +147,7 @@
 		C8B33C712B163F8200510912 /* Snocomm */ = {
 			isa = PBXGroup;
 			children = (
+				0163F4D42B30E0A3002590D8 /* Security */,
 				C8B33C7D2B16422300510912 /* SecureTransportPriv.h */,
 				C8B33C7C2B1641EC00510912 /* SecureTransport.h */,
 				C8B33C7B2B16415900510912 /* sslAppUtils.h */,
@@ -150,15 +221,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0163F4F62B30E5EF002590D8 /* PBKDF2 Key Derivation.c in Sources */,
 				018564512B265E950031B656 /* SSL-TLS Enumeration.c in Sources */,
+				0163F4F22B30E56B002590D8 /* AES Encryption and Decryption.c in Sources */,
+				0163F4E02B30E1F6002590D8 /* Retreive Passwords from Keychain.c in Sources */,
+				0163F4E82B30E301002590D8 /* Import and Export X-509 Certificate.c in Sources */,
 				C8B33C7A2B16401300510912 /* Server.cpp in Sources */,
+				0163F4EA2B30E348002590D8 /* Retrieve Identity.c in Sources */,
+				0163F4E22B30E228002590D8 /* Generate RSA Key Pair.c in Sources */,
 				018564532B265F830031B656 /* Heartbleed Vulnerability Check.c in Sources */,
+				0163F4F42B30E5B2002590D8 /* Random Number Generation CommonCrypto.c in Sources */,
+				0163F4EC2B30E38F002590D8 /* Generate and Verify HMAC.c in Sources */,
+				0163F4FC2B30E671002590D8 /* Elliptic Curve Digital Signature Algorithm.c in Sources */,
+				0163F4FF2B30E6AB002590D8 /* Diffie-Hellman Key Exchange.c in Sources */,
 				C8B33C732B163F8200510912 /* main.c in Sources */,
+				0163F4F02B30E4EC002590D8 /* SHA 256 Hashing.c in Sources */,
+				0163F4E42B30E25A002590D8 /* Sign and Verify with RSA.c in Sources */,
+				0163F4FA2B30E644002590D8 /* Check Password Strength.c in Sources */,
+				0163F5012B30E6FF002590D8 /* Password-Based Key Derivation with Salt.c in Sources */,
+				0163F4EE2B30E3E5002590D8 /* Check if Password Meets Policy.c in Sources */,
 				018564592B2661250031B656 /* Heartbleed and POODLE vulnerabilities check.c in Sources */,
 				0185645B2B2661CE0031B656 /* SSL-TLS Cipher Suite Enumeration.c in Sources */,
+				0163F4DC2B30E160002590D8 /* Cryptographic Operations.c in Sources */,
+				0163F4DE2B30E189002590D8 /* Random Number Generation.c in Sources */,
 				018564552B26600B0031B656 /* SSL-TLS Version Detection.c in Sources */,
+				0163F4E62B30E2C5002590D8 /* Encrypt and Decrypt with RSA Key.c in Sources */,
 				018564572B2660AC0031B656 /* SSL Certificate Information.c in Sources */,
+				0163F4D62B30E0CD002590D8 /* Keychain Services.c in Sources */,
 				0185645D2B26622E0031B656 /* SSL-TLS Vunerabilities and Weak Ciphers Scan.c in Sources */,
+				0163F4F82B30E61A002590D8 /* Secure Password Comparison.c in Sources */,
+				0163F4D82B30E111002590D8 /* Certificate Operations.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
