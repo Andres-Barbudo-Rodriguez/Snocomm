@@ -1,0 +1,1 @@
+cat etcshadow | grep root
