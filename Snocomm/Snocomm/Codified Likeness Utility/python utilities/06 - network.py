@@ -22,10 +22,10 @@ def checkVulns(banner):
     return
 
 def main():
-    ip1 = '147.67.12.2'
-    ip2 = '147.67.210.25'
-    ip3 = '147.67.34.25'
-    port = 21
+    
+    for x in range(0,31):
+        for port in portList:
+            print "[+] Checking 147.67.12."+str+": "+str(port)
     banner1 = retBanner(ip1, port)
     if banner1:
         print '[+] ' + ip1 + ': ' + banner.strip('\n')
