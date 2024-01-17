@@ -415,3 +415,8 @@ zipalign
 172.67.171.255
 2606:4700:3032::ac43:abe1
 2606:4700:3036::6815:1de5
+https://www.plugshare.com/location/299135
+https://www.plugshare.com/location/299212
+https://www.plugshare.com/location/547460
+https://www.plugshare.com/location/299090
+https://www.plugshare.com/location/335422
