@@ -1,0 +1,138 @@
+# Makefile for wipe
+
+VERSION='2.0'
+DOCS='LICENSE copyright CHANGES README TODO INSTALL TESTING'
+
+CC=@CC@
+CFLAGS=@CFLAGS@ -I@srcdir@ -D@OSTYPE@ $(DEFINES)
+DEBUG=@DEBUG@ -I@srcdir@ -D@OSTYPE@ $(DEFINES)
+
+LIBS=@LIBS@
+
+srcdir=@srcdir@
+
+BIN=@bin@
+SRC=@src@
+REQ=@req@
+
+BIN_OUT=$(srcdir)/$(BIN)
+
+prefix=@prefix@
+bindir=@prefix@/bin
+
+INSTALL=@INSTALL@
+INSTALL_BIN=@INSTALL@ -m 0755
+INSTALL_HOME=mv -f
+
+all:	$(REQ) $(BIN)
+
+$(BIN):	main.o wipe.o rand.o dir.o file.o blkdev.o lock.o text.o str.o percent.o prompt.o io.o mt.o
+	$(CC) $(LIBS) `find . -name '*.o'` -o $(BIN)
+
+main.o:	main.c debug.h
+	$(CC) $(CFLAGS) -o main.o -c main.c
+
+wipe.o:	wipe.c debug.h
+	$(CC) $(CFLAGS) -o wipe.o -c wipe.c
+
+rand.o:	rand.c debug.h
+	$(CC) $(CFLAGS) -o rand.o -c rand.c
+
+dir.o:	dir.c debug.h
+	$(CC) $(CFLAGS) -o dir.o -c dir.c
+
+file.o:	file.c debug.h
+	$(CC) $(CFLAGS) -o file.o -c file.c
+
+blkdev.o: blkdev.c debug.h
+	$(CC) $(CFLAGS) -o blkdev.o -c blkdev.c
+
+lock.o:	lock.c debug.h
+	$(CC) $(CFLAGS) -o lock.o -c lock.c
+
+text.o:	text.c debug.h
+	$(CC) $(CFLAGS) -o text.o -c text.c
+
+str.o:	str.c debug.h
+	$(CC) $(CFLAGS) -o str.o -c str.c
+
+percent.o: percent.c debug.h
+	$(CC) $(CFLAGS) -o percent.o -c percent.c
+
+prompt.o: prompt.c debug.h
+	$(CC) $(CFLAGS) -o prompt.o -c prompt.c
+
+io.o:	io.c debug.h
+	$(CC) $(CFLAGS) -o io.o -c io.c
+
+mt.o: mt.c debug.h
+	$(CC) $(CFLAGS) -o mt.o -c mt.c
+
+
+# restores everything to a pre-configured state
+cleanconf:
+	@echo
+	# remove generated filexs
+	rm -f Makefile config.h configure
+	@echo
+	# remove cache, etc.
+	rm -f config.log config.cache config.status
+
+# run this before compiling or packaging for distribution
+dist:	cleanconf
+	@echo
+	# remove binary and backup files
+	rm -f *core* *~ *.o wipe
+	@echo
+	# remove cvs files
+	rm -rf CVS debian/CVS
+	@echo
+	# build autoconf files
+	autoheader
+	autoconf
+
+distclean: dist
+
+proper:	dist
+
+build:	
+	# build autoconf files
+	autoheader
+	autoconf
+
+map:	$(BIN_OUT)
+	nm $(BIN_OUT) | sort > $(BIN_OUT).map
+
+info:   $(BIN_OUT)
+	@file $(BIN_OUT)
+	@echo
+	@echo "Linked:"
+	@ldd $(BIN_OUT)
+
+install: $(BIN_OUT)
+	$(INSTALL_BIN) -d $(bindir)
+	$(INSTALL_BIN) -s $(BIN_OUT) $(bindir)
+	$(INSTALL) -d $(prefix)/man/man1
+	$(INSTALL) -o root -g 0644 wipe.1 $(prefix)/man/man1/
+	rm -rf $(prefix)/doc/wipe*
+	$(INSTALL) -d $(prefix)/doc/wipe
+
+	for file in $(DOCS); do \
+		$(INSTALL) -o root -m 0644 $$file $(prefix)/doc/wipe/; \
+	done
+
+install_home: $(BIN_OUT)
+	strip $(BIN_OUT)
+	$(INSTALL_HOME) $(BIN_OUT) ~/bin/wipe
+	chmod 0755 ~/bin/wipe
+
+uninstall:
+	rm -f $(bindir)/$(BINOUT) $(prefix)/man/man1/wipe.1
+
+remove:
+	rm -f /usr/local/bin/wipe /usr/local/man/man1/wipe.1
+	rm -f /usr/bin/wipe /usr/man/man1/wipe.1
+	rm -f ~/bin/wipe ~/man/man1/wipe.1
+
+clean: cleanconf
+	rm -f *core* $(BIN_OUT) $(srcdir)/*.o

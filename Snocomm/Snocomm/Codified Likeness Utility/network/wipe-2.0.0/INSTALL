@@ -1,0 +1,78 @@
+Debian (dpkg):
+
+1. if building a binary deb package goto 3, else goto 4
+
+2. tar Ixvf wipe*.tar.bz2 || bunzip2 -c wipe*.tar.bz2 | tar xv
+   dpkg-source -b wipe*/
+
+3. to extract a debian source archive, dpkg-source -x ya-wipe*.dsc
+
+4. cd *wipe*/; ./debian/rules binary
+
+5. cd ..; dpkg -i ya-wipe*.deb
+
+Redhat (rpm):
+
+1. tar Ixvf wipe*.tar.bz2 || bunzip2 -c wipe*.tar.bz2 | tar xv
+   cp wipe*/; cp wipe.spec /usr/src/redhat/SPECS/
+   cp wipe*.tar.bz2 /usr/src/redhat/SPECS/
+
+2. cd /usr/src/redhat/; rpm -ba SPECS/wipe.spec
+
+3. rpm -ivh RPMS/`find . | grep -v noarch`/*wipe*.rpm
+   ls SRPMS/
+
+   to build a source rpm:
+
+   rpm --rebuild *wipe*.src.rpm
+
+Tarball:
+
+to install as root:
+
+   ./configure; make install
+
+or to install on a per user basis:
+
+   ./configure; make install_home
+
+to uninstall:
+
+   make uninstall
+or
+   make -f Makefile.in remove
+
+from ./configure --help:
+
+--enable and --with options recognized:
+  --enable-wall        compile with -ansi -pedantic -Wall -Werror
+  --enable-debug       compile with -g
+  --enable-efence      same as debug, but link the binary with the
+		       electric fence
+
+make targets:
+
+make:
+		compile standard wipe binary w/ -O3
+
+make debug:
+		same as ./configure --enable-debug
+
+make efence:
+		same as ./configure --enable-efence
+
+make install:
+		you must be root to run this. this will install all man pages
+		and put the compiled and stripped wipe binary in /usr/local/bin
+
+make install_home:
+		install wipe for personal use in ~/bin/. does not install man
+		pages.
+
+make info:
+		display file info and link data for wipe binary.
+
+make clean:
+		clean binaries from source tree.
+
+see README and LICENSE for more information.

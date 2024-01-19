@@ -1,0 +1,14 @@
+Source: ya-wipe
+Section: utils
+Priority: optional
+Maintainer: Tom Vier <nester@sourceforge.net>
+Standards-version: 2.0
+
+Package: ya-wipe
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: wipe
+Description: Wipe is a tool that effectively degauses the surface of a hard
+ disk, making it virtually impossible to retrieve the data that was
+ stored on it. This tool is designed to make sure secure data that is
+ erased from a hard drive is unrecoverable.

@@ -1,0 +1,25 @@
+ya-wipe (2.0.0) unstable; urgency=high
+  
+  * new upstream version
+  
+  -- Tom Vier <nester@users.sourceforge.net>  Wed, 09 May 2001 19:42:06
+
+ya-wipe (1.2.2) unstable; urgency=high
+
+  * was calling ioctl() on the fd before open()ing it
+  * silent mode is now silent
+  * minor fix the xor loop
+
+ -- Tom Vier <thomassr@erols.com>  Sun, 27 Feb 2000 17:42:30 -0500
+
+ya-wipe (1.2.1) unstable; urgency=high
+
+  * typo prevented ioctl() from being used
+
+ -- Tom Vier <thomassr@erols.com>  Sat, 12 Feb 2000 17:30:50 -0500
+
+ya-wipe (1.2.0) unstable; urgency=high
+  
+  * First release to support debian packaging
+  
+ -- Tom Vier <thomassr@erols.com>  Thu, 30 Dec 1999 18:46:02 -0500
