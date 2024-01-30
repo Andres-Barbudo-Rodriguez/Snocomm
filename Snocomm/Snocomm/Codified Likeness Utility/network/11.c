@@ -4,13 +4,13 @@
 #include <unistd.h>
 
 int main() {
-    int fw;
+    int escritura;
     char str[255];
     mkfifo("RedireccionDeIPC", 0666);
-    fw = open("RedireccionDeIPC", O_WRONLY);
+    escritura = open("RedireccionDeIPC", O_WRONLY);
     printf("Enter text: ");
     gets(str);
-    write(fw,str, sizeof(str));
-    close(fw);
+    write(escritura,str, sizeof(str));
+    close(escritura);
     return 0;
 }
