@@ -9,5 +9,5 @@ class Github
 	end
 end
 
-hi = Github.new("/apple")
-hi.boot
+efi = Github.new("/apple")
+efi.boot
