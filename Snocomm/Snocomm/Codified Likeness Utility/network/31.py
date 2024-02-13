@@ -1,5 +1,5 @@
 # modo de ejecución:
-# 1. python3 31.py --port8800
+# 1. python3 31.py --port=8800
 # 2. desde el navegador web visitar http://localhost:8800
 
 #!/usr/bin/env python
