@@ -18,7 +18,7 @@ def get_interface_status(ifname):
     return nm[ip_address].state()
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Aplicación Utilitaria de Conectividad")
+    parser = argparse.ArgumentParser(description="Aplicacion Utilitaria de Conectividad")
     parser.add_argument('--ifname', action="store", dest="ifname", required=True)
     given_args = parser.parse_args()
     ifname = given_args.ifname
