@@ -1,3 +1,5 @@
+source "01.tcl"
+
 flush stdout
 gets stdin directorio
 set directorio [keychain security list-keychains -d system [security find-certificate -a -Z /Library/Keychains/System.keychain
