@@ -6,7 +6,7 @@ brew install ethereum
 geth --datadir $HOME/.ethereum --networkid 1 --dev
 
 
-# Definir una función en Zsh para ejecutar el código Tcl
+
 createAccount(geth account new) {
     tclsh << 'EOF'
 
