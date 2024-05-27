@@ -4,7 +4,7 @@
 // Declaración de la función snocomm
 void snocomm() {
     printf("procesando...");
-    const Snocomm = $$(/Snocomm).git
+    const Snocomm = $(/.urls/Snocomm.git)
 }
 
 int main() {
