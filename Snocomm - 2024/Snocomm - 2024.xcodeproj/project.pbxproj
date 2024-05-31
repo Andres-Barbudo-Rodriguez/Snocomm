@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C66162C09E69B00A26761 /* 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66022C09E69A00A26761 /* 10.swift */; };
+		017C66172C09E69B00A26761 /* 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66032C09E69A00A26761 /* 14.swift */; };
+		017C66182C09E69B00A26761 /* 09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66042C09E69A00A26761 /* 09.swift */; };
+		017C66192C09E69B00A26761 /* 03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66052C09E69A00A26761 /* 03.swift */; };
+		017C661A2C09E69B00A26761 /* 02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66062C09E69A00A26761 /* 02.swift */; };
+		017C661B2C09E69B00A26761 /* 04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66072C09E69A00A26761 /* 04.swift */; };
+		017C661C2C09E69B00A26761 /* 17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66082C09E69A00A26761 /* 17.swift */; };
+		017C661D2C09E69B00A26761 /* 05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66092C09E69A00A26761 /* 05.swift */; };
+		017C661E2C09E69B00A26761 /* 01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660A2C09E69A00A26761 /* 01.swift */; };
+		017C661F2C09E69B00A26761 /* 18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660B2C09E69A00A26761 /* 18.swift */; };
+		017C66202C09E69B00A26761 /* 15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660C2C09E69A00A26761 /* 15.swift */; };
+		017C66212C09E69B00A26761 /* 13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660D2C09E69A00A26761 /* 13.swift */; };
+		017C66222C09E69B00A26761 /* 07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660E2C09E69B00A26761 /* 07.swift */; };
+		017C66232C09E69B00A26761 /* 06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C660F2C09E69B00A26761 /* 06.swift */; };
+		017C66242C09E69B00A26761 /* 16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66102C09E69B00A26761 /* 16.swift */; };
+		017C66252C09E69B00A26761 /* 11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66112C09E69B00A26761 /* 11.swift */; };
+		017C66272C09E69B00A26761 /* 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66132C09E69B00A26761 /* 12.swift */; };
+		017C66282C09E69B00A26761 /* 08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66142C09E69B00A26761 /* 08.swift */; };
+		01E316492C09E86B00F370E4 /* 19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316482C09E86B00F370E4 /* 19.swift */; };
+		01E3164B2C09E8D500F370E4 /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164A2C09E8D500F370E4 /* 20.swift */; };
+		01E3164D2C09EA1200F370E4 /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164C2C09EA1200F370E4 /* 21.swift */; };
+		01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164E2C09EA8C00F370E4 /* 22.swift */; };
+		01E316512C09EB8B00F370E4 /* 23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316502C09EB8B00F370E4 /* 23.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		017C65F62C09E67000A26761 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		017C65F82C09E67000A26761 /* Snocomm - 2024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snocomm - 2024"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C66022C09E69A00A26761 /* 10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 10.swift; path = "../../Snocomm/Snocomm/network - 5.0/10.swift"; sourceTree = "<group>"; };
+		017C66032C09E69A00A26761 /* 14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 14.swift; path = "../../Snocomm/Snocomm/network - 5.0/14.swift"; sourceTree = "<group>"; };
+		017C66042C09E69A00A26761 /* 09.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 09.swift; path = "../../Snocomm/Snocomm/network - 5.0/09.swift"; sourceTree = "<group>"; };
+		017C66052C09E69A00A26761 /* 03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 03.swift; path = "../../Snocomm/Snocomm/network - 5.0/03.swift"; sourceTree = "<group>"; };
+		017C66062C09E69A00A26761 /* 02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 02.swift; path = "../../Snocomm/Snocomm/network - 5.0/02.swift"; sourceTree = "<group>"; };
+		017C66072C09E69A00A26761 /* 04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 04.swift; path = "../../Snocomm/Snocomm/network - 5.0/04.swift"; sourceTree = "<group>"; };
+		017C66082C09E69A00A26761 /* 17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 17.swift; path = "../../Snocomm/Snocomm/network - 5.0/17.swift"; sourceTree = "<group>"; };
+		017C66092C09E69A00A26761 /* 05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 05.swift; path = "../../Snocomm/Snocomm/network - 5.0/05.swift"; sourceTree = "<group>"; };
+		017C660A2C09E69A00A26761 /* 01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 01.swift; path = "../../Snocomm/Snocomm/network - 5.0/01.swift"; sourceTree = "<group>"; };
+		017C660B2C09E69A00A26761 /* 18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 18.swift; path = "../../Snocomm/Snocomm/network - 5.0/18.swift"; sourceTree = "<group>"; };
+		017C660C2C09E69A00A26761 /* 15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 15.swift; path = "../../Snocomm/Snocomm/network - 5.0/15.swift"; sourceTree = "<group>"; };
+		017C660D2C09E69A00A26761 /* 13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 13.swift; path = "../../Snocomm/Snocomm/network - 5.0/13.swift"; sourceTree = "<group>"; };
+		017C660E2C09E69B00A26761 /* 07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 07.swift; path = "../../Snocomm/Snocomm/network - 5.0/07.swift"; sourceTree = "<group>"; };
+		017C660F2C09E69B00A26761 /* 06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 06.swift; path = "../../Snocomm/Snocomm/network - 5.0/06.swift"; sourceTree = "<group>"; };
+		017C66102C09E69B00A26761 /* 16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 16.swift; path = "../../Snocomm/Snocomm/network - 5.0/16.swift"; sourceTree = "<group>"; };
+		017C66112C09E69B00A26761 /* 11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 11.swift; path = "../../Snocomm/Snocomm/network - 5.0/11.swift"; sourceTree = "<group>"; };
+		017C66132C09E69B00A26761 /* 12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 12.swift; path = "../../Snocomm/Snocomm/network - 5.0/12.swift"; sourceTree = "<group>"; };
+		017C66142C09E69B00A26761 /* 08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 08.swift; path = "../../Snocomm/Snocomm/network - 5.0/08.swift"; sourceTree = "<group>"; };
+		01E316482C09E86B00F370E4 /* 19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.swift; sourceTree = "<group>"; };
+		01E3164A2C09E8D500F370E4 /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
+		01E3164C2C09EA1200F370E4 /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
+		01E3164E2C09EA8C00F370E4 /* 22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.swift; sourceTree = "<group>"; };
+		01E316502C09EB8B00F370E4 /* 23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017C65F52C09E67000A26761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017C65EF2C09E67000A26761 = {
+			isa = PBXGroup;
+			children = (
+				017C65FA2C09E67000A26761 /* Snocomm - 2024 */,
+				017C65F92C09E67000A26761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017C65F92C09E67000A26761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017C65F82C09E67000A26761 /* Snocomm - 2024 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017C65FA2C09E67000A26761 /* Snocomm - 2024 */ = {
+			isa = PBXGroup;
+			children = (
+				017C660A2C09E69A00A26761 /* 01.swift */,
+				017C66062C09E69A00A26761 /* 02.swift */,
+				017C66052C09E69A00A26761 /* 03.swift */,
+				017C66072C09E69A00A26761 /* 04.swift */,
+				017C66092C09E69A00A26761 /* 05.swift */,
+				017C660F2C09E69B00A26761 /* 06.swift */,
+				017C660E2C09E69B00A26761 /* 07.swift */,
+				017C66142C09E69B00A26761 /* 08.swift */,
+				017C66042C09E69A00A26761 /* 09.swift */,
+				017C66022C09E69A00A26761 /* 10.swift */,
+				017C66112C09E69B00A26761 /* 11.swift */,
+				017C66132C09E69B00A26761 /* 12.swift */,
+				017C660D2C09E69A00A26761 /* 13.swift */,
+				017C66032C09E69A00A26761 /* 14.swift */,
+				017C660C2C09E69A00A26761 /* 15.swift */,
+				017C66102C09E69B00A26761 /* 16.swift */,
+				017C66082C09E69A00A26761 /* 17.swift */,
+				017C660B2C09E69A00A26761 /* 18.swift */,
+				01E316482C09E86B00F370E4 /* 19.swift */,
+				01E3164A2C09E8D500F370E4 /* 20.swift */,
+				01E3164C2C09EA1200F370E4 /* 21.swift */,
+				01E3164E2C09EA8C00F370E4 /* 22.swift */,
+				01E316502C09EB8B00F370E4 /* 23.swift */,
+			);
+			path = "Snocomm - 2024";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017C65F72C09E67000A26761 /* Snocomm - 2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017C65FF2C09E67000A26761 /* Build configuration list for PBXNativeTarget "Snocomm - 2024" */;
+			buildPhases = (
+				017C65F42C09E67000A26761 /* Sources */,
+				017C65F52C09E67000A26761 /* Frameworks */,
+				017C65F62C09E67000A26761 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snocomm - 2024";
+			productName = "Snocomm - 2024";
+			productReference = 017C65F82C09E67000A26761 /* Snocomm - 2024 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017C65F02C09E67000A26761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andres Barbudo";
+				TargetAttributes = {
+					017C65F72C09E67000A26761 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 017C65F32C09E67000A26761 /* Build configuration list for PBXProject "Snocomm - 2024" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 017C65EF2C09E67000A26761;
+			productRefGroup = 017C65F92C09E67000A26761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017C65F72C09E67000A26761 /* Snocomm - 2024 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017C65F42C09E67000A26761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C66182C09E69B00A26761 /* 09.swift in Sources */,
+				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
+				017C66162C09E69B00A26761 /* 10.swift in Sources */,
+				01E3164D2C09EA1200F370E4 /* 21.swift in Sources */,
+				017C661D2C09E69B00A26761 /* 05.swift in Sources */,
+				017C66282C09E69B00A26761 /* 08.swift in Sources */,
+				017C661B2C09E69B00A26761 /* 04.swift in Sources */,
+				017C661C2C09E69B00A26761 /* 17.swift in Sources */,
+				01E316512C09EB8B00F370E4 /* 23.swift in Sources */,
+				017C66212C09E69B00A26761 /* 13.swift in Sources */,
+				017C66202C09E69B00A26761 /* 15.swift in Sources */,
+				017C661F2C09E69B00A26761 /* 18.swift in Sources */,
+				017C66232C09E69B00A26761 /* 06.swift in Sources */,
+				017C66222C09E69B00A26761 /* 07.swift in Sources */,
+				017C66242C09E69B00A26761 /* 16.swift in Sources */,
+				01E316492C09E86B00F370E4 /* 19.swift in Sources */,
+				01E3164B2C09E8D500F370E4 /* 20.swift in Sources */,
+				017C66252C09E69B00A26761 /* 11.swift in Sources */,
+				017C66192C09E69B00A26761 /* 03.swift in Sources */,
+				017C66172C09E69B00A26761 /* 14.swift in Sources */,
+				017C661E2C09E69B00A26761 /* 01.swift in Sources */,
+				017C66272C09E69B00A26761 /* 12.swift in Sources */,
+				017C661A2C09E69B00A26761 /* 02.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		017C65FD2C09E67000A26761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		017C65FE2C09E67000A26761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		017C66002C09E67000A26761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T77VRM22PQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		017C66012C09E67000A26761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T77VRM22PQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017C65F32C09E67000A26761 /* Build configuration list for PBXProject "Snocomm - 2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017C65FD2C09E67000A26761 /* Debug */,
+				017C65FE2C09E67000A26761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017C65FF2C09E67000A26761 /* Build configuration list for PBXNativeTarget "Snocomm - 2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017C66002C09E67000A26761 /* Debug */,
+				017C66012C09E67000A26761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017C65F02C09E67000A26761 /* Project object */;
+}
