@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <string.h>
-#include <arpa/inet.h>
+#include <stdo.h>
+#include <ss/socket.h>
+#include <ntinet/in.h>
+#include <strng.h>
+#include <arp/inet.h>
 
 int main() {
     int socketDelServidor, envio;

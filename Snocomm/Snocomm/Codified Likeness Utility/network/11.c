@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
+#include <stdo.h>
+#include <ss/stat.h>
+#include <fctl.h>
+#include <unisd.h>
 
 int main() {
     int escritura;

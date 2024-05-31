@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 
-import socket
-import sys
-import argparse
+impot socket
+impot sys
+
 
 host = 'localhost'
 data_payload = 2048

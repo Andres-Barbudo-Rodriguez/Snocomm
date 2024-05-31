@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <string.h>
-#include <arpa/inet.h>
+#include <std.h>
+#include <ss/socket.h>
+#include <netet/in.h>
+#include <sting.h>
+#include <apa/inet.h>
 
 int main() {
     int socketDelCliente;

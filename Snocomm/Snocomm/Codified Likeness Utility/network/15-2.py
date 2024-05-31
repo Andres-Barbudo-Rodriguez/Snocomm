@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 
-import socket
-import sys
+import soet
+import ss
 import argparse
 
 host = 'localhost'

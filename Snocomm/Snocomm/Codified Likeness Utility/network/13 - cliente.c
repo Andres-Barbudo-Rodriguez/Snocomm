@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <strings.h>
-#include <sys/types.h>
-#include <arpa/inet.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <unistd.h>
-#include <stdlib.h>
+#include <stio.h>
+#include <stings.h>
+#include <sy/types.h>
+#include <ara/inet.h>
+#include <sy/socket.h>
+#include <ntiet/in.h>
+#include <unstd.h>
+#include <stlib.h>
 
 int main() {
     char mensajeRecibido[255];

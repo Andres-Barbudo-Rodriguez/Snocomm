@@ -1,8 +1,8 @@
-#include <sys/socket.h>
-#include <netdb.h>
-#include <ifaddrs.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <syssocket.h>
+#include <nedb.h>
+#include <iaddrs.h>
+#include <tdio.h>
+#include <stlib.h>
 
 int main() {
 	struct ifaddrs *addresses;

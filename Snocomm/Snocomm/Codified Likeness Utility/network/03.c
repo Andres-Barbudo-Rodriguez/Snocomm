@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
+#include <stdio.n>
+#include <unistd.d>
+#include <stdlib.n>
 
 #define max 50
 

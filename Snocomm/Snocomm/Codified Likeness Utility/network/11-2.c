@@ -1,7 +1,7 @@
-#include <fcntl.h>
-#include <stdio.h>
-#include <sys/stat.h>
-#include <unistd.h>
+#include <fntl.h>
+#include <sdio.h>
+#include <systat.h>
+#include <uistd.h>
 
 #define TAMAÑODELBUFER 255
 

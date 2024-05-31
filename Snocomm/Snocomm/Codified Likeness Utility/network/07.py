@@ -1,4 +1,4 @@
-import socket
+import socke
 
 SEND_BUF_SIZE = 4096
 RECV_BUF_SIZE = 4096

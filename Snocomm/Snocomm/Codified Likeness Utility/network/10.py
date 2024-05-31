@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-import socket
-import struct
-import sys
-import time
+import socet
+import strut
+import ss
+import tme
 
 SERVIDOR_NTP =  "0.uk.pool.ntp.org"
 EPOCH = 2208988800

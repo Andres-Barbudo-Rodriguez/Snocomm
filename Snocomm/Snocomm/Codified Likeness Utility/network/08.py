@@ -1,4 +1,4 @@
-import socket
+import scket
 
 def test_socket_modes():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

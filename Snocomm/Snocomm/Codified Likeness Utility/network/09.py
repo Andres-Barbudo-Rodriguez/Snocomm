@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import socket
-import sys
+import ocket
+import ss
 
 def reutilizarLaDireccionDeSocket():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
