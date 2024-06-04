@@ -26,6 +26,7 @@
 		017C66272C09E69B00A26761 /* 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66132C09E69B00A26761 /* 12.swift */; };
 		017C66282C09E69B00A26761 /* 08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66142C09E69B00A26761 /* 08.swift */; };
 		019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */; };
+		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		01E316492C09E86B00F370E4 /* 19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316482C09E86B00F370E4 /* 19.swift */; };
 		01E3164B2C09E8D500F370E4 /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164A2C09E8D500F370E4 /* 20.swift */; };
 		01E3164D2C09EA1200F370E4 /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164C2C09EA1200F370E4 /* 21.swift */; };
@@ -66,6 +67,7 @@
 		017C66132C09E69B00A26761 /* 12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 12.swift; path = "../../Snocomm/Snocomm/network - 5.0/12.swift"; sourceTree = "<group>"; };
 		017C66142C09E69B00A26761 /* 08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 08.swift; path = "../../Snocomm/Snocomm/network - 5.0/08.swift"; sourceTree = "<group>"; };
 		019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "01 - download from a server.swift"; path = "Snocomm - 2024/http/01 - download from a server.swift"; sourceTree = SOURCE_ROOT; };
+		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		01E316482C09E86B00F370E4 /* 19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.swift; sourceTree = "<group>"; };
 		01E3164A2C09E8D500F370E4 /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
 		01E3164C2C09EA1200F370E4 /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */,
+				019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */,
 			);
 			name = nghttp2;
 			path = "New Group";
@@ -215,6 +218,7 @@
 				01E316492C09E86B00F370E4 /* 19.swift in Sources */,
 				01E3164B2C09E8D500F370E4 /* 20.swift in Sources */,
 				017C66252C09E69B00A26761 /* 11.swift in Sources */,
+				019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */,
 				019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */,
 				017C66192C09E69B00A26761 /* 03.swift in Sources */,
 				017C66172C09E69B00A26761 /* 14.swift in Sources */,
