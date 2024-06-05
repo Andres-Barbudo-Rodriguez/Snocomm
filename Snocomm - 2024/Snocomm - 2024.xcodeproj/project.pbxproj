@@ -11,6 +11,7 @@
 		017858762C108C0D009C31DB /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858752C108C0D009C31DB /* 25.swift */; };
 		017858782C108D4F009C31DB /* 26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858772C108D4F009C31DB /* 26.swift */; };
 		0178587A2C108FAA009C31DB /* 27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858792C108FAA009C31DB /* 27.swift */; };
+		0178587C2C1090FC009C31DB /* 28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178587B2C1090FC009C31DB /* 28.swift */; };
 		017C66162C09E69B00A26761 /* 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66022C09E69A00A26761 /* 10.swift */; };
 		017C66172C09E69B00A26761 /* 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66032C09E69A00A26761 /* 14.swift */; };
 		017C66182C09E69B00A26761 /* 09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66042C09E69A00A26761 /* 09.swift */; };
@@ -55,7 +56,8 @@
 		017858732C108A72009C31DB /* 24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.swift; sourceTree = "<group>"; };
 		017858752C108C0D009C31DB /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		017858772C108D4F009C31DB /* 26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.swift; sourceTree = "<group>"; };
-		017858792C108FAA009C31DB /* 27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 27.swift; path = "Snocomm - 2024/27.swift"; sourceTree = "<group>"; };
+		017858792C108FAA009C31DB /* 27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.swift; sourceTree = "<group>"; };
+		0178587B2C1090FC009C31DB /* 28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.swift; sourceTree = "<group>"; };
 		017C65F82C09E67000A26761 /* Snocomm - 2024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snocomm - 2024"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017C66022C09E69A00A26761 /* 10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 10.swift; path = "../../Snocomm/Snocomm/network - 5.0/10.swift"; sourceTree = "<group>"; };
 		017C66032C09E69A00A26761 /* 14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 14.swift; path = "../../Snocomm/Snocomm/network - 5.0/14.swift"; sourceTree = "<group>"; };
@@ -99,7 +101,6 @@
 		017C65EF2C09E67000A26761 = {
 			isa = PBXGroup;
 			children = (
-				017858792C108FAA009C31DB /* 27.swift */,
 				017C65FA2C09E67000A26761 /* Snocomm - 2024 */,
 				017C65F92C09E67000A26761 /* Products */,
 			);
@@ -120,6 +121,8 @@
 				017C660A2C09E69A00A26761 /* 01.swift */,
 				017C66062C09E69A00A26761 /* 02.swift */,
 				017C66052C09E69A00A26761 /* 03.swift */,
+				017858792C108FAA009C31DB /* 27.swift */,
+				0178587B2C1090FC009C31DB /* 28.swift */,
 				017C66072C09E69A00A26761 /* 04.swift */,
 				017C66092C09E69A00A26761 /* 05.swift */,
 				017C660F2C09E69B00A26761 /* 06.swift */,
@@ -218,6 +221,7 @@
 				017C66182C09E69B00A26761 /* 09.swift in Sources */,
 				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
+				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
 				01E3164D2C09EA1200F370E4 /* 21.swift in Sources */,
 				017C661D2C09E69B00A26761 /* 05.swift in Sources */,
 				017C66282C09E69B00A26761 /* 08.swift in Sources */,
