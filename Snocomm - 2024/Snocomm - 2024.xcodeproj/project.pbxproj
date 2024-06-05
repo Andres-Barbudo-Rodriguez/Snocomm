@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		017858742C108A72009C31DB /* 24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858732C108A72009C31DB /* 24.swift */; };
+		017858762C108C0D009C31DB /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858752C108C0D009C31DB /* 25.swift */; };
 		017C66162C09E69B00A26761 /* 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66022C09E69A00A26761 /* 10.swift */; };
 		017C66172C09E69B00A26761 /* 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66032C09E69A00A26761 /* 14.swift */; };
 		017C66182C09E69B00A26761 /* 09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66042C09E69A00A26761 /* 09.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		017858732C108A72009C31DB /* 24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.swift; sourceTree = "<group>"; };
+		017858752C108C0D009C31DB /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		017C65F82C09E67000A26761 /* Snocomm - 2024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snocomm - 2024"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017C66022C09E69A00A26761 /* 10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 10.swift; path = "../../Snocomm/Snocomm/network - 5.0/10.swift"; sourceTree = "<group>"; };
 		017C66032C09E69A00A26761 /* 14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 14.swift; path = "../../Snocomm/Snocomm/network - 5.0/14.swift"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				01E3164E2C09EA8C00F370E4 /* 22.swift */,
 				01E316502C09EB8B00F370E4 /* 23.swift */,
 				017858732C108A72009C31DB /* 24.swift */,
+				017858752C108C0D009C31DB /* 25.swift */,
 			);
 			path = "Snocomm - 2024";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				017C661C2C09E69B00A26761 /* 17.swift in Sources */,
 				01E316512C09EB8B00F370E4 /* 23.swift in Sources */,
 				017C66212C09E69B00A26761 /* 13.swift in Sources */,
+				017858762C108C0D009C31DB /* 25.swift in Sources */,
 				017C66202C09E69B00A26761 /* 15.swift in Sources */,
 				017C661F2C09E69B00A26761 /* 18.swift in Sources */,
 				017C66232C09E69B00A26761 /* 06.swift in Sources */,
