@@ -33,6 +33,7 @@
 		019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */; };
 		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
+		01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC76882C11C5150010FA5E /* 04 - web forms.swift */; };
 		01E316492C09E86B00F370E4 /* 19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316482C09E86B00F370E4 /* 19.swift */; };
 		01E3164B2C09E8D500F370E4 /* 20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164A2C09E8D500F370E4 /* 20.swift */; };
 		01E3164D2C09EA1200F370E4 /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164C2C09EA1200F370E4 /* 21.swift */; };
@@ -80,6 +81,7 @@
 		019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "01 - download from a server.swift"; path = "Snocomm - 2024/http/01 - download from a server.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
+		01DC76882C11C5150010FA5E /* 04 - web forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "04 - web forms.swift"; path = "Snocomm - 2024/nghttp2/04 - web forms.swift"; sourceTree = SOURCE_ROOT; };
 		01E316482C09E86B00F370E4 /* 19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.swift; sourceTree = "<group>"; };
 		01E3164A2C09E8D500F370E4 /* 20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.swift; sourceTree = "<group>"; };
 		01E3164C2C09EA1200F370E4 /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */,
 				019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */,
 				019E6B912C0FA1B70016A012 /* 03 - cookies.swift */,
+				01DC76882C11C5150010FA5E /* 04 - web forms.swift */,
 			);
 			name = nghttp2;
 			path = "New Group";
@@ -223,6 +226,7 @@
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
 				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
 				01E3164D2C09EA1200F370E4 /* 21.swift in Sources */,
+				01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */,
 				017C661D2C09E69B00A26761 /* 05.swift in Sources */,
 				017C66282C09E69B00A26761 /* 08.swift in Sources */,
 				017C661B2C09E69B00A26761 /* 04.swift in Sources */,
