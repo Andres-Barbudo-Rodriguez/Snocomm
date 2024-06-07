@@ -48,6 +48,7 @@
 		01FD83562C13260500922AE3 /* 01.6 - connect a socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83552C13260500922AE3 /* 01.6 - connect a socket.swift */; };
 		01FD83582C13285E00922AE3 /* 01.6-2 - connect a socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83572C13285E00922AE3 /* 01.6-2 - connect a socket.swift */; };
 		01FD835A2C132ADB00922AE3 /* 01.7 - accept connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83592C132ADB00922AE3 /* 01.7 - accept connections.swift */; };
+		01FD835C2C132B9900922AE3 /* 30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD835B2C132B9900922AE3 /* 30.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +106,7 @@
 		01FD83552C13260500922AE3 /* 01.6 - connect a socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.6 - connect a socket.swift"; sourceTree = "<group>"; };
 		01FD83572C13285E00922AE3 /* 01.6-2 - connect a socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.6-2 - connect a socket.swift"; sourceTree = "<group>"; };
 		01FD83592C132ADB00922AE3 /* 01.7 - accept connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.7 - accept connections.swift"; sourceTree = "<group>"; };
+		01FD835B2C132B9900922AE3 /* 30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 30.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				017858772C108D4F009C31DB /* 26.swift */,
 				019307252C11CCE800461159 /* package.swift */,
 				019307272C11CD4800461159 /* 29.swift */,
+				01FD835B2C132B9900922AE3 /* 30.swift */,
 			);
 			path = "Snocomm - 2024";
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				017C66192C09E69B00A26761 /* 03.swift in Sources */,
 				017C66172C09E69B00A26761 /* 14.swift in Sources */,
 				017C661E2C09E69B00A26761 /* 01.swift in Sources */,
+				01FD835C2C132B9900922AE3 /* 30.swift in Sources */,
 				017C66272C09E69B00A26761 /* 12.swift in Sources */,
 				019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */,
 				017C661A2C09E69B00A26761 /* 02.swift in Sources */,
