@@ -30,6 +30,8 @@
 		017C66252C09E69B00A26761 /* 11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66112C09E69B00A26761 /* 11.swift */; };
 		017C66272C09E69B00A26761 /* 12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66132C09E69B00A26761 /* 12.swift */; };
 		017C66282C09E69B00A26761 /* 08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66142C09E69B00A26761 /* 08.swift */; };
+		019307262C11CCE800461159 /* package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019307252C11CCE800461159 /* package.swift */; };
+		019307282C11CD4800461159 /* 29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019307272C11CD4800461159 /* 29.swift */; };
 		019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */; };
 		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
@@ -41,6 +43,7 @@
 		01E3164D2C09EA1200F370E4 /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164C2C09EA1200F370E4 /* 21.swift */; };
 		01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E3164E2C09EA8C00F370E4 /* 22.swift */; };
 		01E316512C09EB8B00F370E4 /* 23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316502C09EB8B00F370E4 /* 23.swift */; };
+		01FD83522C1321D500922AE3 /* 01.5 - bindsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +83,8 @@
 		017C66112C09E69B00A26761 /* 11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 11.swift; path = "../../Snocomm/Snocomm/network - 5.0/11.swift"; sourceTree = "<group>"; };
 		017C66132C09E69B00A26761 /* 12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 12.swift; path = "../../Snocomm/Snocomm/network - 5.0/12.swift"; sourceTree = "<group>"; };
 		017C66142C09E69B00A26761 /* 08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 08.swift; path = "../../Snocomm/Snocomm/network - 5.0/08.swift"; sourceTree = "<group>"; };
+		019307252C11CCE800461159 /* package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = package.swift; sourceTree = "<group>"; };
+		019307272C11CD4800461159 /* 29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 29.swift; sourceTree = "<group>"; };
 		019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "01 - download from a server.swift"; path = "Snocomm - 2024/http/01 - download from a server.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
@@ -91,6 +96,7 @@
 		01E3164C2C09EA1200F370E4 /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
 		01E3164E2C09EA8C00F370E4 /* 22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.swift; sourceTree = "<group>"; };
 		01E316502C09EB8B00F370E4 /* 23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.swift; sourceTree = "<group>"; };
+		01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.5 - bindsocket.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 		017C65FA2C09E67000A26761 /* Snocomm - 2024 */ = {
 			isa = PBXGroup;
 			children = (
+				01FD83502C131FCF00922AE3 /* telephonic */,
 				019E6B8C2C0F986F0016A012 /* nghttp2 */,
 				017C660A2C09E69A00A26761 /* 01.swift */,
 				017C66062C09E69A00A26761 /* 02.swift */,
@@ -152,6 +159,8 @@
 				017858732C108A72009C31DB /* 24.swift */,
 				017858752C108C0D009C31DB /* 25.swift */,
 				017858772C108D4F009C31DB /* 26.swift */,
+				019307252C11CCE800461159 /* package.swift */,
+				019307272C11CD4800461159 /* 29.swift */,
 			);
 			path = "Snocomm - 2024";
 			sourceTree = "<group>";
@@ -168,6 +177,14 @@
 			);
 			name = nghttp2;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		01FD83502C131FCF00922AE3 /* telephonic */ = {
+			isa = PBXGroup;
+			children = (
+				01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */,
+			);
+			path = telephonic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +246,7 @@
 			files = (
 				017C66182C09E69B00A26761 /* 09.swift in Sources */,
 				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
+				019307282C11CD4800461159 /* 29.swift in Sources */,
 				01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */,
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
 				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
@@ -240,11 +258,13 @@
 				017C661C2C09E69B00A26761 /* 17.swift in Sources */,
 				01DC768B2C11C7030010FA5E /* 05 - web requests through a proxy server.swift in Sources */,
 				0178587A2C108FAA009C31DB /* 27.swift in Sources */,
+				01FD83522C1321D500922AE3 /* 01.5 - bindsocket.swift in Sources */,
 				01E316512C09EB8B00F370E4 /* 23.swift in Sources */,
 				017C66212C09E69B00A26761 /* 13.swift in Sources */,
 				017858762C108C0D009C31DB /* 25.swift in Sources */,
 				017858782C108D4F009C31DB /* 26.swift in Sources */,
 				017C66202C09E69B00A26761 /* 15.swift in Sources */,
+				019307262C11CCE800461159 /* package.swift in Sources */,
 				017C661F2C09E69B00A26761 /* 18.swift in Sources */,
 				017C66232C09E69B00A26761 /* 06.swift in Sources */,
 				017C66222C09E69B00A26761 /* 07.swift in Sources */,
