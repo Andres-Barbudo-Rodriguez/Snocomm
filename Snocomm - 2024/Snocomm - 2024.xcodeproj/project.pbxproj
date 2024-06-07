@@ -45,6 +45,7 @@
 		01E316512C09EB8B00F370E4 /* 23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E316502C09EB8B00F370E4 /* 23.swift */; };
 		01FD83522C1321D500922AE3 /* 01.5 - bindsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */; };
 		01FD83542C1323C800922AE3 /* 01.5 - bindsocketudp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83532C1323C800922AE3 /* 01.5 - bindsocketudp.swift */; };
+		01FD83562C13260500922AE3 /* 01.6 - connect a socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD83552C13260500922AE3 /* 01.6 - connect a socket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,7 @@
 		01E316502C09EB8B00F370E4 /* 23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.swift; sourceTree = "<group>"; };
 		01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.5 - bindsocket.swift"; sourceTree = "<group>"; };
 		01FD83532C1323C800922AE3 /* 01.5 - bindsocketudp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.5 - bindsocketudp.swift"; sourceTree = "<group>"; };
+		01FD83552C13260500922AE3 /* 01.6 - connect a socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01.6 - connect a socket.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			children = (
 				01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */,
 				01FD83532C1323C800922AE3 /* 01.5 - bindsocketudp.swift */,
+				01FD83552C13260500922AE3 /* 01.6 - connect a socket.swift */,
 			);
 			path = telephonic;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				017C66232C09E69B00A26761 /* 06.swift in Sources */,
 				017C66222C09E69B00A26761 /* 07.swift in Sources */,
 				017C66242C09E69B00A26761 /* 16.swift in Sources */,
+				01FD83562C13260500922AE3 /* 01.6 - connect a socket.swift in Sources */,
 				01E316492C09E86B00F370E4 /* 19.swift in Sources */,
 				01E3164B2C09E8D500F370E4 /* 20.swift in Sources */,
 				017C66252C09E69B00A26761 /* 11.swift in Sources */,
