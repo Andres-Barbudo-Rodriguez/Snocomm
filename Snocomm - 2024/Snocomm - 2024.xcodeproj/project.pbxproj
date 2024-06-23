@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012857392C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */; };
+		014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */; };
 		017858742C108A72009C31DB /* 24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858732C108A72009C31DB /* 24.swift */; };
 		017858762C108C0D009C31DB /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858752C108C0D009C31DB /* 25.swift */; };
 		017858782C108D4F009C31DB /* 26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858772C108D4F009C31DB /* 26.swift */; };
@@ -32,9 +34,37 @@
 		017C66282C09E69B00A26761 /* 08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66142C09E69B00A26761 /* 08.swift */; };
 		019307262C11CCE800461159 /* package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019307252C11CCE800461159 /* package.swift */; };
 		019307282C11CD4800461159 /* 29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019307272C11CD4800461159 /* 29.swift */; };
+		019409922C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409912C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift */; };
+		019409942C237CBB00A1256F /* 09 - Servidor de Seguridad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409932C237CBB00A1256F /* 09 - Servidor de Seguridad.swift */; };
+		019409962C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409952C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift */; };
+		019409992C23872D00A1256F /* 01 - Mobile AAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409982C23872D00A1256F /* 01 - Mobile AAA.swift */; };
+		0194099B2C23877300A1256F /* 02 - API Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194099A2C23877300A1256F /* 02 - API Auth.swift */; };
+		0194099D2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194099C2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift */; };
+		0194099F2C23887D00A1256F /* 04 - Web Service with different Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194099E2C23887D00A1256F /* 04 - Web Service with different Roles.swift */; };
+		019409A12C2388B400A1256F /* 05 - Access Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409A02C2388B400A1256F /* 05 - Access Control.swift */; };
+		019409A32C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409A22C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift */; };
+		019409A52C23894800A1256F /* 07 - Access Control Time Policies .swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409A42C23894800A1256F /* 07 - Access Control Time Policies .swift */; };
+		019409A72C23897900A1256F /* 08 - Access Control Location Policies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409A62C23897900A1256F /* 08 - Access Control Location Policies.swift */; };
+		019409A92C238C2000A1256F /* 09 - logs - login and logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409A82C238C2000A1256F /* 09 - logs - login and logout.swift */; };
+		019409AB2C238C5700A1256F /* 10 - logs - Data Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409AA2C238C5700A1256F /* 10 - logs - Data Access.swift */; };
+		019409AD2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409AC2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift */; };
+		019409AF2C238CCD00A1256F /* 12 - logs - Admin Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409AE2C238CCD00A1256F /* 12 - logs - Admin Activity.swift */; };
+		019409B12C238D3200A1256F /* 13 - logs - User Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409B02C238D3200A1256F /* 13 - logs - User Activity.swift */; };
+		019409B42C238E7300A1256F /* 01 - Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409B32C238E7300A1256F /* 01 - Files.swift */; };
+		019409B62C238EAE00A1256F /* 02 - Database Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409B52C238EAE00A1256F /* 02 - Database Records.swift */; };
+		019409B82C238EE000A1256F /* 03 - Cache Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409B72C238EE000A1256F /* 03 - Cache Data.swift */; };
+		019409BA2C238F1500A1256F /* 04 - User Account Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409B92C238F1500A1256F /* 04 - User Account Data.swift */; };
+		019409BC2C238F4000A1256F /* 05 - App Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409BB2C238F4000A1256F /* 05 - App Logs.swift */; };
+		019409C12C23903000A1256F /* 01 - secd - Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409C02C23903000A1256F /* 01 - secd - Files.swift */; };
+		019409C32C2390A100A1256F /* 02 - secd - Database Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409C22C2390A100A1256F /* 02 - secd - Database Records.swift */; };
+		019409C52C2390D600A1256F /* 03 - secd - Cache Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409C42C2390D600A1256F /* 03 - secd - Cache Data.swift */; };
+		019409C72C23912900A1256F /* 04 - secd - User Account Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409C62C23912900A1256F /* 04 - secd - User Account Data.swift */; };
+		019409C92C23915900A1256F /* 05 - secd - App Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019409C82C23915900A1256F /* 05 - secd - App Logs.swift */; };
 		019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */; };
 		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
+		01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */; };
+		01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */; };
 		01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC76882C11C5150010FA5E /* 04 - web forms.swift */; };
 		01DC768B2C11C7030010FA5E /* 05 - web requests through a proxy server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC768A2C11C7030010FA5E /* 05 - web requests through a proxy server.swift */; };
 		01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC768C2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift */; };
@@ -64,6 +94,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Optimización de Memoria y CPU.swift"; sourceTree = "<group>"; };
+		014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "07 - ahorrar ancho de banda.swift"; path = "Snocomm - 2024/nghttp2/07 - ahorrar ancho de banda.swift"; sourceTree = SOURCE_ROOT; };
 		017858732C108A72009C31DB /* 24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.swift; sourceTree = "<group>"; };
 		017858752C108C0D009C31DB /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		017858772C108D4F009C31DB /* 26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.swift; sourceTree = "<group>"; };
@@ -90,9 +122,37 @@
 		017C66142C09E69B00A26761 /* 08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 08.swift; path = "../../Snocomm/Snocomm/network - 5.0/08.swift"; sourceTree = "<group>"; };
 		019307252C11CCE800461159 /* package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = package.swift; sourceTree = "<group>"; };
 		019307272C11CD4800461159 /* 29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 29.swift; sourceTree = "<group>"; };
+		019409912C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "08 - implementacion de fail-over para descargas interrumpidas.swift"; path = "Snocomm - 2024/nghttp2/08 - implementacion de fail-over para descargas interrumpidas.swift"; sourceTree = SOURCE_ROOT; };
+		019409932C237CBB00A1256F /* 09 - Servidor de Seguridad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "09 - Servidor de Seguridad.swift"; path = "Snocomm - 2024/nghttp2/09 - Servidor de Seguridad.swift"; sourceTree = SOURCE_ROOT; };
+		019409952C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10 - sistema servidor-cliente asíncrono.swift"; path = "Snocomm - 2024/nghttp2/10 - sistema servidor-cliente asíncrono.swift"; sourceTree = SOURCE_ROOT; };
+		019409982C23872D00A1256F /* 01 - Mobile AAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Mobile AAA.swift"; sourceTree = "<group>"; };
+		0194099A2C23877300A1256F /* 02 - API Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - API Auth.swift"; sourceTree = "<group>"; };
+		0194099C2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Mobile Admin and User Roles.swift"; sourceTree = "<group>"; };
+		0194099E2C23887D00A1256F /* 04 - Web Service with different Roles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - Web Service with different Roles.swift"; sourceTree = "<group>"; };
+		019409A02C2388B400A1256F /* 05 - Access Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05 - Access Control.swift"; sourceTree = "<group>"; };
+		019409A22C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06 - Access Based on Resources and Environment.swift"; sourceTree = "<group>"; };
+		019409A42C23894800A1256F /* 07 - Access Control Time Policies .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07 - Access Control Time Policies .swift"; sourceTree = "<group>"; };
+		019409A62C23897900A1256F /* 08 - Access Control Location Policies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08 - Access Control Location Policies.swift"; sourceTree = "<group>"; };
+		019409A82C238C2000A1256F /* 09 - logs - login and logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09 - logs - login and logout.swift"; sourceTree = "<group>"; };
+		019409AA2C238C5700A1256F /* 10 - logs - Data Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10 - logs - Data Access.swift"; sourceTree = "<group>"; };
+		019409AC2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11 - logs - Errors and Exceptions.swift"; sourceTree = "<group>"; };
+		019409AE2C238CCD00A1256F /* 12 - logs - Admin Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12 - logs - Admin Activity.swift"; sourceTree = "<group>"; };
+		019409B02C238D3200A1256F /* 13 - logs - User Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13 - logs - User Activity.swift"; sourceTree = "<group>"; };
+		019409B32C238E7300A1256F /* 01 - Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Files.swift"; sourceTree = "<group>"; };
+		019409B52C238EAE00A1256F /* 02 - Database Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Database Records.swift"; sourceTree = "<group>"; };
+		019409B72C238EE000A1256F /* 03 - Cache Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Cache Data.swift"; sourceTree = "<group>"; };
+		019409B92C238F1500A1256F /* 04 - User Account Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - User Account Data.swift"; sourceTree = "<group>"; };
+		019409BB2C238F4000A1256F /* 05 - App Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05 - App Logs.swift"; sourceTree = "<group>"; };
+		019409C02C23903000A1256F /* 01 - secd - Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - secd - Files.swift"; sourceTree = "<group>"; };
+		019409C22C2390A100A1256F /* 02 - secd - Database Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - secd - Database Records.swift"; sourceTree = "<group>"; };
+		019409C42C2390D600A1256F /* 03 - secd - Cache Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - secd - Cache Data.swift"; sourceTree = "<group>"; };
+		019409C62C23912900A1256F /* 04 - secd - User Account Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - secd - User Account Data.swift"; sourceTree = "<group>"; };
+		019409C82C23915900A1256F /* 05 - secd - App Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05 - secd - App Logs.swift"; sourceTree = "<group>"; };
 		019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "01 - download from a server.swift"; path = "Snocomm - 2024/http/01 - download from a server.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
+		01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "11 - obtener una pagina web en modo asíncrono.swift"; path = "Snocomm - 2024/nghttp2/11 - obtener una pagina web en modo asíncrono.swift"; sourceTree = SOURCE_ROOT; };
+		01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "12 - concurrency.swift"; path = "Snocomm - 2024/nghttp2/12 - concurrency.swift"; sourceTree = SOURCE_ROOT; };
 		01DC76882C11C5150010FA5E /* 04 - web forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "04 - web forms.swift"; path = "Snocomm - 2024/nghttp2/04 - web forms.swift"; sourceTree = SOURCE_ROOT; };
 		01DC768A2C11C7030010FA5E /* 05 - web requests through a proxy server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "05 - web requests through a proxy server.swift"; path = "Snocomm - 2024/nghttp2/05 - web requests through a proxy server.swift"; sourceTree = SOURCE_ROOT; };
 		01DC768C2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "06 - solicitud de cabecera.swift"; path = "Snocomm - 2024/nghttp2/06 - solicitud de cabecera.swift"; sourceTree = SOURCE_ROOT; };
@@ -120,6 +180,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012857372C28C9D9002CBE88 /* Mithril */ = {
+			isa = PBXGroup;
+			children = (
+				012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */,
+			);
+			path = Mithril;
+			sourceTree = "<group>";
+		};
 		017C65EF2C09E67000A26761 = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +207,9 @@
 		017C65FA2C09E67000A26761 /* Snocomm - 2024 */ = {
 			isa = PBXGroup;
 			children = (
-				01FD83502C131FCF00922AE3 /* telephonic */,
+				012857372C28C9D9002CBE88 /* Mithril */,
+				019409972C23871900A1256F /* fishMach */,
+				01FD83502C131FCF00922AE3 /* lakeTric */,
 				019E6B8C2C0F986F0016A012 /* nghttp2 */,
 				017C660A2C09E69A00A26761 /* 01.swift */,
 				017C66062C09E69A00A26761 /* 02.swift */,
@@ -176,6 +246,52 @@
 			path = "Snocomm - 2024";
 			sourceTree = "<group>";
 		};
+		019409972C23871900A1256F /* fishMach */ = {
+			isa = PBXGroup;
+			children = (
+				019409BF2C238F8600A1256F /* Secure Deletion */,
+				019409B22C238E6000A1256F /* User Delete Rights */,
+				019409982C23872D00A1256F /* 01 - Mobile AAA.swift */,
+				0194099A2C23877300A1256F /* 02 - API Auth.swift */,
+				0194099C2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift */,
+				0194099E2C23887D00A1256F /* 04 - Web Service with different Roles.swift */,
+				019409A02C2388B400A1256F /* 05 - Access Control.swift */,
+				019409A22C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift */,
+				019409A42C23894800A1256F /* 07 - Access Control Time Policies .swift */,
+				019409A62C23897900A1256F /* 08 - Access Control Location Policies.swift */,
+				019409A82C238C2000A1256F /* 09 - logs - login and logout.swift */,
+				019409AA2C238C5700A1256F /* 10 - logs - Data Access.swift */,
+				019409AC2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift */,
+				019409AE2C238CCD00A1256F /* 12 - logs - Admin Activity.swift */,
+				019409B02C238D3200A1256F /* 13 - logs - User Activity.swift */,
+			);
+			path = fishMach;
+			sourceTree = "<group>";
+		};
+		019409B22C238E6000A1256F /* User Delete Rights */ = {
+			isa = PBXGroup;
+			children = (
+				019409B32C238E7300A1256F /* 01 - Files.swift */,
+				019409B52C238EAE00A1256F /* 02 - Database Records.swift */,
+				019409B72C238EE000A1256F /* 03 - Cache Data.swift */,
+				019409B92C238F1500A1256F /* 04 - User Account Data.swift */,
+				019409BB2C238F4000A1256F /* 05 - App Logs.swift */,
+			);
+			path = "User Delete Rights";
+			sourceTree = "<group>";
+		};
+		019409BF2C238F8600A1256F /* Secure Deletion */ = {
+			isa = PBXGroup;
+			children = (
+				019409C02C23903000A1256F /* 01 - secd - Files.swift */,
+				019409C22C2390A100A1256F /* 02 - secd - Database Records.swift */,
+				019409C42C2390D600A1256F /* 03 - secd - Cache Data.swift */,
+				019409C62C23912900A1256F /* 04 - secd - User Account Data.swift */,
+				019409C82C23915900A1256F /* 05 - secd - App Logs.swift */,
+			);
+			path = "Secure Deletion";
+			sourceTree = "<group>";
+		};
 		019E6B8C2C0F986F0016A012 /* nghttp2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,12 +301,18 @@
 				01DC76882C11C5150010FA5E /* 04 - web forms.swift */,
 				01DC768A2C11C7030010FA5E /* 05 - web requests through a proxy server.swift */,
 				01DC768C2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift */,
+				014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */,
+				019409912C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift */,
+				019409932C237CBB00A1256F /* 09 - Servidor de Seguridad.swift */,
+				019409952C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift */,
+				01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */,
+				01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */,
 			);
 			name = nghttp2;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		01FD83502C131FCF00922AE3 /* telephonic */ = {
+		01FD83502C131FCF00922AE3 /* lakeTric */ = {
 			isa = PBXGroup;
 			children = (
 				01FD83512C1321D500922AE3 /* 01.5 - bindsocket.swift */,
@@ -199,7 +321,7 @@
 				01FD83572C13285E00922AE3 /* 01.6-2 - connect a socket.swift */,
 				01FD83592C132ADB00922AE3 /* 01.7 - accept connections.swift */,
 			);
-			path = telephonic;
+			path = lakeTric;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,47 +381,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019409C52C2390D600A1256F /* 03 - secd - Cache Data.swift in Sources */,
+				019409C12C23903000A1256F /* 01 - secd - Files.swift in Sources */,
 				017C66182C09E69B00A26761 /* 09.swift in Sources */,
 				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
 				019307282C11CD4800461159 /* 29.swift in Sources */,
+				012857392C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift in Sources */,
+				019409B62C238EAE00A1256F /* 02 - Database Records.swift in Sources */,
 				01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */,
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
 				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
+				019409C72C23912900A1256F /* 04 - secd - User Account Data.swift in Sources */,
+				019409922C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift in Sources */,
 				01E3164D2C09EA1200F370E4 /* 21.swift in Sources */,
+				019409AF2C238CCD00A1256F /* 12 - logs - Admin Activity.swift in Sources */,
 				01FD83582C13285E00922AE3 /* 01.6-2 - connect a socket.swift in Sources */,
+				019409A72C23897900A1256F /* 08 - Access Control Location Policies.swift in Sources */,
+				019409AD2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift in Sources */,
+				019409A12C2388B400A1256F /* 05 - Access Control.swift in Sources */,
 				01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */,
 				017C661D2C09E69B00A26761 /* 05.swift in Sources */,
 				017C66282C09E69B00A26761 /* 08.swift in Sources */,
+				0194099F2C23887D00A1256F /* 04 - Web Service with different Roles.swift in Sources */,
 				017C661B2C09E69B00A26761 /* 04.swift in Sources */,
+				019409A32C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift in Sources */,
 				01FD83542C1323C800922AE3 /* 01.5 - bindsocketudp.swift in Sources */,
 				017C661C2C09E69B00A26761 /* 17.swift in Sources */,
+				019409BC2C238F4000A1256F /* 05 - App Logs.swift in Sources */,
+				019409B12C238D3200A1256F /* 13 - logs - User Activity.swift in Sources */,
+				019409962C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift in Sources */,
 				01DC768B2C11C7030010FA5E /* 05 - web requests through a proxy server.swift in Sources */,
 				0178587A2C108FAA009C31DB /* 27.swift in Sources */,
 				01FD83522C1321D500922AE3 /* 01.5 - bindsocket.swift in Sources */,
+				0194099D2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift in Sources */,
 				01E316512C09EB8B00F370E4 /* 23.swift in Sources */,
+				019409B42C238E7300A1256F /* 01 - Files.swift in Sources */,
+				019409942C237CBB00A1256F /* 09 - Servidor de Seguridad.swift in Sources */,
 				01FD835A2C132ADB00922AE3 /* 01.7 - accept connections.swift in Sources */,
+				019409C92C23915900A1256F /* 05 - secd - App Logs.swift in Sources */,
 				017C66212C09E69B00A26761 /* 13.swift in Sources */,
 				017858762C108C0D009C31DB /* 25.swift in Sources */,
 				017858782C108D4F009C31DB /* 26.swift in Sources */,
+				019409BA2C238F1500A1256F /* 04 - User Account Data.swift in Sources */,
 				017C66202C09E69B00A26761 /* 15.swift in Sources */,
 				019307262C11CCE800461159 /* package.swift in Sources */,
+				01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */,
 				017C661F2C09E69B00A26761 /* 18.swift in Sources */,
 				017C66232C09E69B00A26761 /* 06.swift in Sources */,
 				017C66222C09E69B00A26761 /* 07.swift in Sources */,
 				017C66242C09E69B00A26761 /* 16.swift in Sources */,
+				019409AB2C238C5700A1256F /* 10 - logs - Data Access.swift in Sources */,
 				01FD83562C13260500922AE3 /* 01.6 - connect a socket.swift in Sources */,
+				019409992C23872D00A1256F /* 01 - Mobile AAA.swift in Sources */,
+				019409C32C2390A100A1256F /* 02 - secd - Database Records.swift in Sources */,
 				01E316492C09E86B00F370E4 /* 19.swift in Sources */,
 				01E3164B2C09E8D500F370E4 /* 20.swift in Sources */,
 				017C66252C09E69B00A26761 /* 11.swift in Sources */,
 				019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */,
+				019409A92C238C2000A1256F /* 09 - logs - login and logout.swift in Sources */,
 				019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */,
 				017858742C108A72009C31DB /* 24.swift in Sources */,
 				017C66192C09E69B00A26761 /* 03.swift in Sources */,
 				017C66172C09E69B00A26761 /* 14.swift in Sources */,
+				0194099B2C23877300A1256F /* 02 - API Auth.swift in Sources */,
 				017C661E2C09E69B00A26761 /* 01.swift in Sources */,
 				01FD835C2C132B9900922AE3 /* 30.swift in Sources */,
+				019409B82C238EE000A1256F /* 03 - Cache Data.swift in Sources */,
+				01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */,
+				019409A52C23894800A1256F /* 07 - Access Control Time Policies .swift in Sources */,
 				017C66272C09E69B00A26761 /* 12.swift in Sources */,
 				019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */,
+				014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */,
 				017C661A2C09E69B00A26761 /* 02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
