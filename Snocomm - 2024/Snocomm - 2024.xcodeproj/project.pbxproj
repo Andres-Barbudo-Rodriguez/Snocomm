@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010010FF2C2D893000D8B746 /* 02 - Errores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010010FE2C2D893000D8B746 /* 02 - Errores.swift */; };
 		011A90FE2C297FAF00522440 /* 01 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */; };
 		011A91002C2981E600522440 /* 02 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */; };
 		011A91022C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */; };
@@ -98,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010010FE2C2D893000D8B746 /* 02 - Errores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Errores.swift"; sourceTree = "<group>"; };
 		011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Listing Adapters.swift"; sourceTree = "<group>"; };
 		011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Listing Adapters.swift"; sourceTree = "<group>"; };
 		011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Listing Adapters -mac ios and linux.swift"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */,
+				010010FE2C2D893000D8B746 /* 02 - Errores.swift */,
 			);
 			path = Mithril;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */,
 				019409A52C23894800A1256F /* 07 - Access Control Time Policies .swift in Sources */,
 				017C66272C09E69B00A26761 /* 12.swift in Sources */,
+				010010FF2C2D893000D8B746 /* 02 - Errores.swift in Sources */,
 				019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */,
 				014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */,
 				017C661A2C09E69B00A26761 /* 02.swift in Sources */,
