@@ -18,3 +18,21 @@ print("UCHAR_MAX: \(UCHAR_MAX)")
 print("USHRT_MAX: \(USHRT_MAX)")
 print("UINT_MAX: \(UINT_MAX)")
 print("ULONG_MAX: \(ULONG_MAX)")
+
+typealias Clint = UInt16
+typealias CLINT = [Clint]
+
+let CLINTMAXDIGIT = 0
+let CLINTMAXSHORT = CLINTMAXDIGIT + 1
+let CLINTMAXBIT = CLINTMAXDIGIT << 4
+
+typealias CLINTD = [Clint]
+typealias CLINTQ = [Clint]
+
+func createCLINTD() -> CLINTD {
+    return [Clint](repeating: 0, count: 1 + (CLINTMAXDIGIT << 1))
+}
+
+func createCLINTQ() -> CLINTQ {
+    return [Clint](repeating: 0, count: 1 + (CLINTMAXDIGIT << 2))
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011A90FE2C297FAF00522440 /* 01 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */; };
+		011A91002C2981E600522440 /* 02 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */; };
+		011A91022C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */; };
+		011A91042C29982900522440 /* 04 - Socket Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91032C29982900522440 /* 04 - Socket Setup.swift */; };
 		012857392C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */; };
 		014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */; };
 		017858742C108A72009C31DB /* 24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858732C108A72009C31DB /* 24.swift */; };
@@ -94,6 +98,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Listing Adapters.swift"; sourceTree = "<group>"; };
+		011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Listing Adapters.swift"; sourceTree = "<group>"; };
+		011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Listing Adapters -mac ios and linux.swift"; sourceTree = "<group>"; };
+		011A91032C29982900522440 /* 04 - Socket Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - Socket Setup.swift"; sourceTree = "<group>"; };
 		012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Optimización de Memoria y CPU.swift"; sourceTree = "<group>"; };
 		014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "07 - ahorrar ancho de banda.swift"; path = "Snocomm - 2024/nghttp2/07 - ahorrar ancho de banda.swift"; sourceTree = SOURCE_ROOT; };
 		017858732C108A72009C31DB /* 24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.swift; sourceTree = "<group>"; };
@@ -180,6 +188,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011A90FC2C297F9900522440 /* iceFox */ = {
+			isa = PBXGroup;
+			children = (
+				011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */,
+				011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */,
+				011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */,
+				011A91032C29982900522440 /* 04 - Socket Setup.swift */,
+			);
+			path = iceFox;
+			sourceTree = "<group>";
+		};
 		012857372C28C9D9002CBE88 /* Mithril */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +226,7 @@
 		017C65FA2C09E67000A26761 /* Snocomm - 2024 */ = {
 			isa = PBXGroup;
 			children = (
+				011A90FC2C297F9900522440 /* iceFox */,
 				012857372C28C9D9002CBE88 /* Mithril */,
 				019409972C23871900A1256F /* fishMach */,
 				01FD83502C131FCF00922AE3 /* lakeTric */,
@@ -390,10 +410,12 @@
 				019409B62C238EAE00A1256F /* 02 - Database Records.swift in Sources */,
 				01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */,
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
+				011A91042C29982900522440 /* 04 - Socket Setup.swift in Sources */,
 				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
 				019409C72C23912900A1256F /* 04 - secd - User Account Data.swift in Sources */,
 				019409922C23789800A1256F /* 08 - implementacion de fail-over para descargas interrumpidas.swift in Sources */,
 				01E3164D2C09EA1200F370E4 /* 21.swift in Sources */,
+				011A91022C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift in Sources */,
 				019409AF2C238CCD00A1256F /* 12 - logs - Admin Activity.swift in Sources */,
 				01FD83582C13285E00922AE3 /* 01.6-2 - connect a socket.swift in Sources */,
 				019409A72C23897900A1256F /* 08 - Access Control Location Policies.swift in Sources */,
@@ -428,6 +450,7 @@
 				01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */,
 				017C661F2C09E69B00A26761 /* 18.swift in Sources */,
 				017C66232C09E69B00A26761 /* 06.swift in Sources */,
+				011A91002C2981E600522440 /* 02 - Listing Adapters.swift in Sources */,
 				017C66222C09E69B00A26761 /* 07.swift in Sources */,
 				017C66242C09E69B00A26761 /* 16.swift in Sources */,
 				019409AB2C238C5700A1256F /* 10 - logs - Data Access.swift in Sources */,
@@ -438,6 +461,7 @@
 				01E3164B2C09E8D500F370E4 /* 20.swift in Sources */,
 				017C66252C09E69B00A26761 /* 11.swift in Sources */,
 				019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */,
+				011A90FE2C297FAF00522440 /* 01 - Listing Adapters.swift in Sources */,
 				019409A92C238C2000A1256F /* 09 - logs - login and logout.swift in Sources */,
 				019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */,
 				017858742C108A72009C31DB /* 24.swift in Sources */,
