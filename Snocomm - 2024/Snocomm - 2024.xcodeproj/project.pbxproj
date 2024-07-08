@@ -70,6 +70,7 @@
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
 		01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */; };
 		01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */; };
+		01D08BCE2C3C07B10024EED8 /* 03 - Adición.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */; };
 		01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC76882C11C5150010FA5E /* 04 - web forms.swift */; };
 		01DC768B2C11C7030010FA5E /* 05 - web requests through a proxy server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC768A2C11C7030010FA5E /* 05 - web requests through a proxy server.swift */; };
 		01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DC768C2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift */; };
@@ -163,6 +164,7 @@
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
 		01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "11 - obtener una pagina web en modo asíncrono.swift"; path = "Snocomm - 2024/nghttp2/11 - obtener una pagina web en modo asíncrono.swift"; sourceTree = SOURCE_ROOT; };
 		01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "12 - concurrency.swift"; path = "Snocomm - 2024/nghttp2/12 - concurrency.swift"; sourceTree = SOURCE_ROOT; };
+		01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Adición.swift"; sourceTree = "<group>"; };
 		01DC76882C11C5150010FA5E /* 04 - web forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "04 - web forms.swift"; path = "Snocomm - 2024/nghttp2/04 - web forms.swift"; sourceTree = SOURCE_ROOT; };
 		01DC768A2C11C7030010FA5E /* 05 - web requests through a proxy server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "05 - web requests through a proxy server.swift"; path = "Snocomm - 2024/nghttp2/05 - web requests through a proxy server.swift"; sourceTree = SOURCE_ROOT; };
 		01DC768C2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "06 - solicitud de cabecera.swift"; path = "Snocomm - 2024/nghttp2/06 - solicitud de cabecera.swift"; sourceTree = SOURCE_ROOT; };
@@ -206,6 +208,7 @@
 			children = (
 				012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */,
 				010010FE2C2D893000D8B746 /* 02 - Errores.swift */,
+				01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */,
 			);
 			path = Mithril;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				019409A52C23894800A1256F /* 07 - Access Control Time Policies .swift in Sources */,
 				017C66272C09E69B00A26761 /* 12.swift in Sources */,
 				010010FF2C2D893000D8B746 /* 02 - Errores.swift in Sources */,
+				01D08BCE2C3C07B10024EED8 /* 03 - Adición.swift in Sources */,
 				019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */,
 				014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */,
 				017C661A2C09E69B00A26761 /* 02.swift in Sources */,
