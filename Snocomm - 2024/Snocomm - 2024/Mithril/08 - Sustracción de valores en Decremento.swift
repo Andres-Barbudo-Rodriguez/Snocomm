@@ -14,7 +14,7 @@ enum CLINTError: Error {
 }
 
 func dec_l(_ a_l: inout BigInt) -> CLINTError {
-    let BASE: BigInt = BigInt(1) << 16 // Suponiendo que BASE es 2^16
+    let BASE: BigInt = BigInt(1) << 16
     let DBASEMINONE: BigInt = BASE - 1
     let BITPERDIGIT = 16
     
@@ -41,20 +41,10 @@ func dec_l(_ a_l: inout BigInt) -> CLINTError {
         }
     }
     
-    // Remove leading zeros
+    
     while a_l != 0 && a_l & (BASE - 1) == 0 {
         a_l >>= BITPERDIGIT
     }
     
     return .ok
-}
-
-// Ejemplo de uso:
-var a_l = BigInt("123456789123456789")
-let result = dec_l(&a_l)
-switch result {
-case .ok:
-    print("Resultado: \(a_l), No hay error.")
-case .underflow:
-    print("Resultado: \(a_l), Subdesbordamiento detectado.")
 }
