@@ -12,8 +12,17 @@
 		011A91002C2981E600522440 /* 02 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */; };
 		011A91022C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */; };
 		011A91042C29982900522440 /* 04 - Socket Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91032C29982900522440 /* 04 - Socket Setup.swift */; };
+		011ADBAE2C57BBBB000C6850 /* 11 - Exponenciación.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011ADBAD2C57BBBB000C6850 /* 11 - Exponenciación.swift */; };
+		011D6E462C3C7B3B00F90201 /* 04 - Sustracción.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D6E452C3C7B3B00F90201 /* 04 - Sustracción.swift */; };
 		012857392C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */; };
+		013705252C4EF19500B54E71 /* 09 - Multiplicación.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013705242C4EF19500B54E71 /* 09 - Multiplicación.swift */; };
+		013705282C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013705272C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift */; };
+		0137052A2C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013705292C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift */; };
 		014609C52C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */; };
+		0146B4492C4E7CD0000C814A /* 05 - Adición Mixta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B4482C4E7CD0000C814A /* 05 - Adición Mixta.swift */; };
+		0146B44B2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B44A2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift */; };
+		0146B44D2C4E80D1000C814A /* 07 - Adición de valores de Incremento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B44C2C4E80D1000C814A /* 07 - Adición de valores de Incremento.swift */; };
+		0146B44F2C4E8264000C814A /* 08 - Sustracción de valores en Decremento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B44E2C4E8264000C814A /* 08 - Sustracción de valores en Decremento.swift */; };
 		017858742C108A72009C31DB /* 24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858732C108A72009C31DB /* 24.swift */; };
 		017858762C108C0D009C31DB /* 25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858752C108C0D009C31DB /* 25.swift */; };
 		017858782C108D4F009C31DB /* 26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858772C108D4F009C31DB /* 26.swift */; };
@@ -68,6 +77,7 @@
 		019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */; };
 		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
+		01A533B92C4FD1A50033D23C /* 10 - Multiplicación mixta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */; };
 		01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */; };
 		01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */; };
 		01D08BCE2C3C07B10024EED8 /* 03 - Adición.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */; };
@@ -105,8 +115,17 @@
 		011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Listing Adapters.swift"; sourceTree = "<group>"; };
 		011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Listing Adapters -mac ios and linux.swift"; sourceTree = "<group>"; };
 		011A91032C29982900522440 /* 04 - Socket Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - Socket Setup.swift"; sourceTree = "<group>"; };
+		011ADBAD2C57BBBB000C6850 /* 11 - Exponenciación.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11 - Exponenciación.swift"; sourceTree = "<group>"; };
+		011D6E452C3C7B3B00F90201 /* 04 - Sustracción.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - Sustracción.swift"; sourceTree = "<group>"; };
 		012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Optimización de Memoria y CPU.swift"; sourceTree = "<group>"; };
+		013705242C4EF19500B54E71 /* 09 - Multiplicación.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09 - Multiplicación.swift"; sourceTree = "<group>"; };
+		013705272C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Interface para métodos estadísticos.swift"; sourceTree = "<group>"; };
+		013705292C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Interface para métodos estadísticos.swift"; sourceTree = "<group>"; };
 		014609C42C205C8F00C1C75E /* 07 - ahorrar ancho de banda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "07 - ahorrar ancho de banda.swift"; path = "Snocomm - 2024/nghttp2/07 - ahorrar ancho de banda.swift"; sourceTree = SOURCE_ROOT; };
+		0146B4482C4E7CD0000C814A /* 05 - Adición Mixta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05 - Adición Mixta.swift"; sourceTree = "<group>"; };
+		0146B44A2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06 - Sustracción Mixta.swift"; sourceTree = "<group>"; };
+		0146B44C2C4E80D1000C814A /* 07 - Adición de valores de Incremento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07 - Adición de valores de Incremento.swift"; sourceTree = "<group>"; };
+		0146B44E2C4E8264000C814A /* 08 - Sustracción de valores en Decremento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08 - Sustracción de valores en Decremento.swift"; sourceTree = "<group>"; };
 		017858732C108A72009C31DB /* 24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.swift; sourceTree = "<group>"; };
 		017858752C108C0D009C31DB /* 25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.swift; sourceTree = "<group>"; };
 		017858772C108D4F009C31DB /* 26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.swift; sourceTree = "<group>"; };
@@ -162,6 +181,7 @@
 		019E6B8D2C0F98CE0016A012 /* 01 - download from a server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "01 - download from a server.swift"; path = "Snocomm - 2024/http/01 - download from a server.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
+		01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10 - Multiplicación mixta.swift"; sourceTree = "<group>"; };
 		01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "11 - obtener una pagina web en modo asíncrono.swift"; path = "Snocomm - 2024/nghttp2/11 - obtener una pagina web en modo asíncrono.swift"; sourceTree = SOURCE_ROOT; };
 		01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "12 - concurrency.swift"; path = "Snocomm - 2024/nghttp2/12 - concurrency.swift"; sourceTree = SOURCE_ROOT; };
 		01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Adición.swift"; sourceTree = "<group>"; };
@@ -209,8 +229,25 @@
 				012857382C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift */,
 				010010FE2C2D893000D8B746 /* 02 - Errores.swift */,
 				01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */,
+				011D6E452C3C7B3B00F90201 /* 04 - Sustracción.swift */,
+				0146B4482C4E7CD0000C814A /* 05 - Adición Mixta.swift */,
+				0146B44A2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift */,
+				0146B44C2C4E80D1000C814A /* 07 - Adición de valores de Incremento.swift */,
+				0146B44E2C4E8264000C814A /* 08 - Sustracción de valores en Decremento.swift */,
+				013705242C4EF19500B54E71 /* 09 - Multiplicación.swift */,
+				01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */,
+				011ADBAD2C57BBBB000C6850 /* 11 - Exponenciación.swift */,
 			);
 			path = Mithril;
+			sourceTree = "<group>";
+		};
+		013705262C4EF4A100B54E71 /* fireSong */ = {
+			isa = PBXGroup;
+			children = (
+				013705272C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift */,
+				013705292C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift */,
+			);
+			path = fireSong;
 			sourceTree = "<group>";
 		};
 		017C65EF2C09E67000A26761 = {
@@ -232,6 +269,7 @@
 		017C65FA2C09E67000A26761 /* Snocomm - 2024 */ = {
 			isa = PBXGroup;
 			children = (
+				013705262C4EF4A100B54E71 /* fireSong */,
 				011A90FC2C297F9900522440 /* iceFox */,
 				012857372C28C9D9002CBE88 /* Mithril */,
 				019409972C23871900A1256F /* fishMach */,
@@ -408,9 +446,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				019409C52C2390D600A1256F /* 03 - secd - Cache Data.swift in Sources */,
+				0146B4492C4E7CD0000C814A /* 05 - Adición Mixta.swift in Sources */,
 				019409C12C23903000A1256F /* 01 - secd - Files.swift in Sources */,
 				017C66182C09E69B00A26761 /* 09.swift in Sources */,
 				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
+				013705252C4EF19500B54E71 /* 09 - Multiplicación.swift in Sources */,
 				019307282C11CD4800461159 /* 29.swift in Sources */,
 				012857392C28CA14002CBE88 /* 01 - Optimización de Memoria y CPU.swift in Sources */,
 				019409B62C238EAE00A1256F /* 02 - Database Records.swift in Sources */,
@@ -427,16 +467,21 @@
 				019409A72C23897900A1256F /* 08 - Access Control Location Policies.swift in Sources */,
 				019409AD2C238C9100A1256F /* 11 - logs - Errors and Exceptions.swift in Sources */,
 				019409A12C2388B400A1256F /* 05 - Access Control.swift in Sources */,
+				0146B44F2C4E8264000C814A /* 08 - Sustracción de valores en Decremento.swift in Sources */,
+				0137052A2C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift in Sources */,
 				01DC76892C11C5150010FA5E /* 04 - web forms.swift in Sources */,
 				017C661D2C09E69B00A26761 /* 05.swift in Sources */,
+				011D6E462C3C7B3B00F90201 /* 04 - Sustracción.swift in Sources */,
 				017C66282C09E69B00A26761 /* 08.swift in Sources */,
 				0194099F2C23887D00A1256F /* 04 - Web Service with different Roles.swift in Sources */,
 				017C661B2C09E69B00A26761 /* 04.swift in Sources */,
 				019409A32C2388F600A1256F /* 06 - Access Based on Resources and Environment.swift in Sources */,
 				01FD83542C1323C800922AE3 /* 01.5 - bindsocketudp.swift in Sources */,
+				011ADBAE2C57BBBB000C6850 /* 11 - Exponenciación.swift in Sources */,
 				017C661C2C09E69B00A26761 /* 17.swift in Sources */,
 				019409BC2C238F4000A1256F /* 05 - App Logs.swift in Sources */,
 				019409B12C238D3200A1256F /* 13 - logs - User Activity.swift in Sources */,
+				013705282C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift in Sources */,
 				019409962C237FD800A1256F /* 10 - sistema servidor-cliente asíncrono.swift in Sources */,
 				01DC768B2C11C7030010FA5E /* 05 - web requests through a proxy server.swift in Sources */,
 				0178587A2C108FAA009C31DB /* 27.swift in Sources */,
@@ -444,11 +489,14 @@
 				0194099D2C23882C00A1256F /* 03 - Mobile Admin and User Roles.swift in Sources */,
 				01E316512C09EB8B00F370E4 /* 23.swift in Sources */,
 				019409B42C238E7300A1256F /* 01 - Files.swift in Sources */,
+				0146B44D2C4E80D1000C814A /* 07 - Adición de valores de Incremento.swift in Sources */,
 				019409942C237CBB00A1256F /* 09 - Servidor de Seguridad.swift in Sources */,
 				01FD835A2C132ADB00922AE3 /* 01.7 - accept connections.swift in Sources */,
+				0146B44B2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift in Sources */,
 				019409C92C23915900A1256F /* 05 - secd - App Logs.swift in Sources */,
 				017C66212C09E69B00A26761 /* 13.swift in Sources */,
 				017858762C108C0D009C31DB /* 25.swift in Sources */,
+				01A533B92C4FD1A50033D23C /* 10 - Multiplicación mixta.swift in Sources */,
 				017858782C108D4F009C31DB /* 26.swift in Sources */,
 				019409BA2C238F1500A1256F /* 04 - User Account Data.swift in Sources */,
 				017C66202C09E69B00A26761 /* 15.swift in Sources */,
