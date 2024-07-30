@@ -28,6 +28,7 @@
 		017858782C108D4F009C31DB /* 26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858772C108D4F009C31DB /* 26.swift */; };
 		0178587A2C108FAA009C31DB /* 27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017858792C108FAA009C31DB /* 27.swift */; };
 		0178587C2C1090FC009C31DB /* 28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178587B2C1090FC009C31DB /* 28.swift */; };
+		017A569D2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A569C2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift */; };
 		017C66162C09E69B00A26761 /* 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66022C09E69A00A26761 /* 10.swift */; };
 		017C66172C09E69B00A26761 /* 14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66032C09E69A00A26761 /* 14.swift */; };
 		017C66182C09E69B00A26761 /* 09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C66042C09E69A00A26761 /* 09.swift */; };
@@ -131,6 +132,7 @@
 		017858772C108D4F009C31DB /* 26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.swift; sourceTree = "<group>"; };
 		017858792C108FAA009C31DB /* 27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.swift; sourceTree = "<group>"; };
 		0178587B2C1090FC009C31DB /* 28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.swift; sourceTree = "<group>"; };
+		017A569C2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12 - Multiplicación con el metodo de Karatsuba.swift"; sourceTree = "<group>"; };
 		017C65F82C09E67000A26761 /* Snocomm - 2024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snocomm - 2024"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017C66022C09E69A00A26761 /* 10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 10.swift; path = "../../Snocomm/Snocomm/network - 5.0/10.swift"; sourceTree = "<group>"; };
 		017C66032C09E69A00A26761 /* 14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 14.swift; path = "../../Snocomm/Snocomm/network - 5.0/14.swift"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				013705242C4EF19500B54E71 /* 09 - Multiplicación.swift */,
 				01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */,
 				011ADBAD2C57BBBB000C6850 /* 11 - Exponenciación.swift */,
+				017A569C2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift */,
 			);
 			path = Mithril;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				01FD835A2C132ADB00922AE3 /* 01.7 - accept connections.swift in Sources */,
 				0146B44B2C4E7DEF000C814A /* 06 - Sustracción Mixta.swift in Sources */,
 				019409C92C23915900A1256F /* 05 - secd - App Logs.swift in Sources */,
+				017A569D2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift in Sources */,
 				017C66212C09E69B00A26761 /* 13.swift in Sources */,
 				017858762C108C0D009C31DB /* 25.swift in Sources */,
 				01A533B92C4FD1A50033D23C /* 10 - Multiplicación mixta.swift in Sources */,
