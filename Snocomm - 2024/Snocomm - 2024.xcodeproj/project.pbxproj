@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		010010FF2C2D893000D8B746 /* 02 - Errores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010010FE2C2D893000D8B746 /* 02 - Errores.swift */; };
+		0100CA042C590C9D00CCA48E /* 03 - NGS - NCBI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100CA032C590C9D00CCA48E /* 03 - NGS - NCBI.swift */; };
+		0100CA062C590E8D00CCA48E /* 04 - NGS - PubMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100CA052C590E8D00CCA48E /* 04 - NGS - PubMed.swift */; };
 		011A90FE2C297FAF00522440 /* 01 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */; };
 		011A91002C2981E600522440 /* 02 - Listing Adapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */; };
 		011A91022C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */; };
@@ -79,6 +81,7 @@
 		019E6B902C0F9F080016A012 /* 02 - requests parte 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */; };
 		019E6B922C0FA1B70016A012 /* 03 - cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E6B912C0FA1B70016A012 /* 03 - cookies.swift */; };
 		01A533B92C4FD1A50033D23C /* 10 - Multiplicación mixta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */; };
+		01A5E06F2C60F806008F64AB /* 13 - División con Residuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5E06E2C60F806008F64AB /* 13 - División con Residuo.swift */; };
 		01AB31562C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */; };
 		01AB31582C24D2FB00C643A7 /* 12 - concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */; };
 		01D08BCE2C3C07B10024EED8 /* 03 - Adición.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */; };
@@ -112,6 +115,8 @@
 
 /* Begin PBXFileReference section */
 		010010FE2C2D893000D8B746 /* 02 - Errores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Errores.swift"; sourceTree = "<group>"; };
+		0100CA032C590C9D00CCA48E /* 03 - NGS - NCBI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - NGS - NCBI.swift"; sourceTree = "<group>"; };
+		0100CA052C590E8D00CCA48E /* 04 - NGS - PubMed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04 - NGS - PubMed.swift"; sourceTree = "<group>"; };
 		011A90FD2C297FAF00522440 /* 01 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01 - Listing Adapters.swift"; sourceTree = "<group>"; };
 		011A90FF2C2981E600522440 /* 02 - Listing Adapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02 - Listing Adapters.swift"; sourceTree = "<group>"; };
 		011A91012C29922500522440 /* 03 - Listing Adapters -mac ios and linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Listing Adapters -mac ios and linux.swift"; sourceTree = "<group>"; };
@@ -184,6 +189,7 @@
 		019E6B8F2C0F9F080016A012 /* 02 - requests parte 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "02 - requests parte 1.swift"; path = "Snocomm - 2024/http/02 - requests parte 1.swift"; sourceTree = SOURCE_ROOT; };
 		019E6B912C0FA1B70016A012 /* 03 - cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "03 - cookies.swift"; path = "Snocomm - 2024/http/03 - cookies.swift"; sourceTree = SOURCE_ROOT; };
 		01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10 - Multiplicación mixta.swift"; sourceTree = "<group>"; };
+		01A5E06E2C60F806008F64AB /* 13 - División con Residuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13 - División con Residuo.swift"; sourceTree = "<group>"; };
 		01AB31552C24CDD200C643A7 /* 11 - obtener una pagina web en modo asíncrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "11 - obtener una pagina web en modo asíncrono.swift"; path = "Snocomm - 2024/nghttp2/11 - obtener una pagina web en modo asíncrono.swift"; sourceTree = SOURCE_ROOT; };
 		01AB31572C24D2FB00C643A7 /* 12 - concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "12 - concurrency.swift"; path = "Snocomm - 2024/nghttp2/12 - concurrency.swift"; sourceTree = SOURCE_ROOT; };
 		01D08BCD2C3C07B10024EED8 /* 03 - Adición.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03 - Adición.swift"; sourceTree = "<group>"; };
@@ -240,6 +246,7 @@
 				01A533B82C4FD1A50033D23C /* 10 - Multiplicación mixta.swift */,
 				011ADBAD2C57BBBB000C6850 /* 11 - Exponenciación.swift */,
 				017A569C2C58F6E400EAC6D0 /* 12 - Multiplicación con el metodo de Karatsuba.swift */,
+				01A5E06E2C60F806008F64AB /* 13 - División con Residuo.swift */,
 			);
 			path = Mithril;
 			sourceTree = "<group>";
@@ -249,6 +256,8 @@
 			children = (
 				013705272C4EF4FC00B54E71 /* 01 - Interface para métodos estadísticos.swift */,
 				013705292C4EF7AA00B54E71 /* 02 - Interface para métodos estadísticos.swift */,
+				0100CA032C590C9D00CCA48E /* 03 - NGS - NCBI.swift */,
+				0100CA052C590E8D00CCA48E /* 04 - NGS - PubMed.swift */,
 			);
 			path = fireSong;
 			sourceTree = "<group>";
@@ -450,6 +459,7 @@
 			files = (
 				019409C52C2390D600A1256F /* 03 - secd - Cache Data.swift in Sources */,
 				0146B4492C4E7CD0000C814A /* 05 - Adición Mixta.swift in Sources */,
+				01A5E06F2C60F806008F64AB /* 13 - División con Residuo.swift in Sources */,
 				019409C12C23903000A1256F /* 01 - secd - Files.swift in Sources */,
 				017C66182C09E69B00A26761 /* 09.swift in Sources */,
 				01E3164F2C09EA8C00F370E4 /* 22.swift in Sources */,
@@ -459,6 +469,7 @@
 				019409B62C238EAE00A1256F /* 02 - Database Records.swift in Sources */,
 				01DC768D2C11CA7A0010FA5E /* 06 - solicitud de cabecera.swift in Sources */,
 				017C66162C09E69B00A26761 /* 10.swift in Sources */,
+				0100CA042C590C9D00CCA48E /* 03 - NGS - NCBI.swift in Sources */,
 				011A91042C29982900522440 /* 04 - Socket Setup.swift in Sources */,
 				0178587C2C1090FC009C31DB /* 28.swift in Sources */,
 				019409C72C23912900A1256F /* 04 - secd - User Account Data.swift in Sources */,
@@ -522,6 +533,7 @@
 				011A90FE2C297FAF00522440 /* 01 - Listing Adapters.swift in Sources */,
 				019409A92C238C2000A1256F /* 09 - logs - login and logout.swift in Sources */,
 				019E6B8E2C0F98CE0016A012 /* 01 - download from a server.swift in Sources */,
+				0100CA062C590E8D00CCA48E /* 04 - NGS - PubMed.swift in Sources */,
 				017858742C108A72009C31DB /* 24.swift in Sources */,
 				017C66192C09E69B00A26761 /* 03.swift in Sources */,
 				017C66172C09E69B00A26761 /* 14.swift in Sources */,
